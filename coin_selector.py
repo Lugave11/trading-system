@@ -30,9 +30,9 @@ SELECTION_CRITERIA = {
     'min_volume_usd': 10_000_000,  # Min 24h volume $10M
     'max_volume_usd': None,   # No max volume
     'min_volatility_pct': 2.0,    # Min 2% daily volatility
-    'max_volatility_pct': 15.0,   # Max 15% daily volatility (avoid stablecoins + crazy alts)
-    'require_glassnode': True,    # Must have Glassnode coverage
-    'must_include': ['BTC', 'ETH'],  # Core holdings always included
+    'max_volatility_pct': 30.0,   # Max 30% daily volatility (avoid stablecoins + crazy alts)
+    'require_etherscan': True,    # Must have Etherscan coverage (on-chain data)
+    'must_include': ['BCH', 'MATIC'],  # Current open positions (from shared_state.json)
     'exclude_stablecoins': True,   # Skip USDT, USDC, etc.
 }
 
@@ -50,27 +50,27 @@ def get_candidate_coins() -> List[Dict]:
     # Top coins by 24h volume (approximate, from Binance.US)
     # This would be fetched from API in production
     candidates = [
-        {'symbol': 'BTC', 'volume_24h': 28_500_000_000, 'volatility_pct': 4.2, 'glassnode': True},
-        {'symbol': 'ETH', 'volume_24h': 15_200_000_000, 'volatility_pct': 5.1, 'glassnode': True},
-        {'symbol': 'SOL', 'volume_24h': 4_800_000_000, 'volatility_pct': 7.3, 'glassnode': True},
-        {'symbol': 'BNB', 'volume_24h': 2_100_000_000, 'volatility_pct': 3.8, 'glassnode': True},
-        {'symbol': 'XRP', 'volume_24h': 1_900_000_000, 'volatility_pct': 4.5, 'glassnode': True},
-        {'symbol': 'ADA', 'volume_24h': 890_000_000, 'volatility_pct': 5.2, 'glassnode': True},
-        {'symbol': 'AVAX', 'volume_24h': 720_000_000, 'volatility_pct': 6.8, 'glassnode': True},
-        {'symbol': 'DOGE', 'volume_24h': 1_200_000_000, 'volatility_pct': 8.5, 'glassnode': True},
-        {'symbol': 'DOT', 'volume_24h': 450_000_000, 'volatility_pct': 5.9, 'glassnode': True},
-        {'symbol': 'MATIC', 'volume_24h': 380_000_000, 'volatility_pct': 6.2, 'glassnode': True},
-        {'symbol': 'LINK', 'volume_24h': 520_000_000, 'volatility_pct': 5.5, 'glassnode': True},
-        {'symbol': 'UNI', 'volume_24h': 290_000_000, 'volatility_pct': 6.1, 'glassnode': True},
-        {'symbol': 'ATOM', 'volume_24h': 210_000_000, 'volatility_pct': 5.8, 'glassnode': True},
-        {'symbol': 'LTC', 'volume_24h': 680_000_000, 'volatility_pct': 4.1, 'glassnode': True},
-        {'symbol': 'BCH', 'volume_24h': 590_000_000, 'volatility_pct': 4.8, 'glassnode': True},
-        {'symbol': 'NEAR', 'volume_24h': 340_000_000, 'volatility_pct': 7.2, 'glassnode': False},  # No Glassnode
-        {'symbol': 'APT', 'volume_24h': 280_000_000, 'volatility_pct': 8.1, 'glassnode': False},  # No Glassnode
-        {'symbol': 'ARB', 'volume_24h': 420_000_000, 'volatility_pct': 6.5, 'glassnode': False},  # No Glassnode
-        {'symbol': 'OP', 'volume_24h': 190_000_000, 'volatility_pct': 7.0, 'glassnode': False},  # No Glassnode
-        {'symbol': 'USDT', 'volume_24h': 45_000_000_000, 'volatility_pct': 0.01, 'glassnode': True},  # Stablecoin
-        {'symbol': 'USDC', 'volume_24h': 8_500_000_000, 'volatility_pct': 0.02, 'glassnode': True},  # Stablecoin
+        {'symbol': 'BTC', 'volume_24h': 28_500_000_000, 'volatility_pct': 4.2, 'etherscan': True},
+        {'symbol': 'ETH', 'volume_24h': 15_200_000_000, 'volatility_pct': 5.1, 'etherscan': True},
+        {'symbol': 'SOL', 'volume_24h': 4_800_000_000, 'volatility_pct': 7.3, 'etherscan': True},
+        {'symbol': 'BNB', 'volume_24h': 2_100_000_000, 'volatility_pct': 3.8, 'etherscan': True},
+        {'symbol': 'XRP', 'volume_24h': 1_900_000_000, 'volatility_pct': 4.5, 'etherscan': True},
+        {'symbol': 'ADA', 'volume_24h': 890_000_000, 'volatility_pct': 5.2, 'etherscan': True},
+        {'symbol': 'AVAX', 'volume_24h': 720_000_000, 'volatility_pct': 6.8, 'etherscan': True},
+        {'symbol': 'DOGE', 'volume_24h': 1_200_000_000, 'volatility_pct': 8.5, 'etherscan': True},
+        {'symbol': 'DOT', 'volume_24h': 450_000_000, 'volatility_pct': 5.9, 'etherscan': True},
+        {'symbol': 'MATIC', 'volume_24h': 380_000_000, 'volatility_pct': 6.2, 'etherscan': True},
+        {'symbol': 'LINK', 'volume_24h': 520_000_000, 'volatility_pct': 5.5, 'etherscan': True},
+        {'symbol': 'UNI', 'volume_24h': 290_000_000, 'volatility_pct': 6.1, 'etherscan': True},
+        {'symbol': 'ATOM', 'volume_24h': 210_000_000, 'volatility_pct': 5.8, 'etherscan': True},
+        {'symbol': 'LTC', 'volume_24h': 680_000_000, 'volatility_pct': 4.1, 'etherscan': True},
+        {'symbol': 'BCH', 'volume_24h': 590_000_000, 'volatility_pct': 4.8, 'etherscan': True},
+        {'symbol': 'NEAR', 'volume_24h': 340_000_000, 'volatility_pct': 7.2, 'etherscan': False},  # No Etherscan
+        {'symbol': 'APT', 'volume_24h': 280_000_000, 'volatility_pct': 8.1, 'etherscan': False},  # No Etherscan
+        {'symbol': 'ARB', 'volume_24h': 420_000_000, 'volatility_pct': 6.5, 'etherscan': False},  # No Etherscan
+        {'symbol': 'OP', 'volume_24h': 190_000_000, 'volatility_pct': 7.0, 'etherscan': False},  # No Etherscan
+        {'symbol': 'USDT', 'volume_24h': 45_000_000_000, 'volatility_pct': 0.01, 'etherscan': True},  # Stablecoin
+        {'symbol': 'USDC', 'volume_24h': 8_500_000_000, 'volatility_pct': 0.02, 'etherscan': True},  # Stablecoin
     ]
     
     return candidates
@@ -90,9 +90,9 @@ def filter_candidates(candidates: List[Dict], criteria: Dict) -> List[Dict]:
             print(f"   ⚠ {symbol}: Excluded (stablecoin)")
             continue
         
-        # Rule 2: Must have Glassnode coverage (if required)
-        if criteria['require_glassnode'] and not coin.get('glassnode', False):
-            print(f"   ⚠ {symbol}: Excluded (no Glassnode coverage)")
+        # Rule 2: Must have Etherscan coverage (if required)
+        if criteria['require_etherscan'] and not coin.get('etherscan', False):
+            print(f"   ⚠ {symbol}: Excluded (no Etherscan coverage)")
             continue
         
         # Rule 3: Min volume
@@ -142,7 +142,7 @@ def select_coins(criteria: Dict = None) -> Tuple[List[str], List[Dict]]:
     print(f"  - Top N coins: {criteria['top_n']}")
     print(f"  - Min volume: ${criteria['min_volume_usd']/1e6:.1f}M")
     print(f"  - Volatility range: {criteria['min_volatility_pct']:.1f}% - {criteria['max_volatility_pct']:.1f}%")
-    print(f"  - Glassnode required: {criteria['require_glassnode']}")
+    print(f"  - Etherscan required: {criteria['require_etherscan']}")
     print(f"  - Exclude stablecoins: {criteria['exclude_stablecoins']}")
     print(f"  - Must include: {criteria['must_include']}")
     print()
@@ -169,10 +169,10 @@ def select_coins(criteria: Dict = None) -> Tuple[List[str], List[Dict]]:
     print("="*80)
     ranked = rank_candidates(filtered)
     
-    print(f"{'Rank':<6} {'Symbol':<10} {'Volume 24h':<18} {'Volatility':<12} {'Glassnode'}")
+    print(f"{'Rank':<6} {'Symbol':<10} {'Volume 24h':<18} {'Volatility':<12} {'Etherscan'}")
     print("-"*80)
     for i, coin in enumerate(ranked, 1):
-        print(f"{i:<6} {coin['symbol']:<10} ${coin['volume_24h']/1e9:>8.2f}B    {coin['volatility_pct']:>5.1f}%      {'✅' if coin['glassnode'] else '❌'}")
+        print(f"{i:<6} {coin['symbol']:<10} ${coin['volume_24h']/1e9:>8.2f}B    {coin['volatility_pct']:>5.1f}%      {'✅' if coin['etherscan'] else '❌'}")
     print()
     
     # Step 4: Select top N
@@ -225,7 +225,7 @@ def select_coins(criteria: Dict = None) -> Tuple[List[str], List[Dict]]:
     
     print(f"Total 24h Volume: ${total_volume/1e9:.2f}B")
     print(f"Avg Volatility: {avg_volatility:.1f}%")
-    print(f"Glassnode Coverage: 100% ({len(selected_coins)}/{len(selected_coins)})")
+    print(f"Etherscan Coverage: 100% ({len(selected_coins)}/{len(selected_coins)})")
     print()
     
     return symbols, selected_coins
@@ -245,15 +245,15 @@ def save_coin_universe(symbols: List[str], selected_coins: List[Dict], output_pa
         'selection_criteria': SELECTION_CRITERIA,
         'metadata': {
             'description': 'Dynamic coin universe - selected by objective criteria',
-            'glassnode_coverage': '100% (all coins have on-chain data)',
+            'etherscan_coverage': '100% (all coins have on-chain data)',
             'rebalance_frequency': 'Weekly or as needed',
-            'selection_method': 'Top N by volume + Glassnode coverage + volatility filter',
+            'selection_method': 'Top N by volume + Etherscan coverage + volatility filter',
         },
         'coin_data': {
             coin['symbol']: {
                 'volume_24h': coin['volume_24h'],
                 'volatility_pct': coin['volatility_pct'],
-                'glassnode': coin['glassnode'],
+                'etherscan': coin['etherscan'],
             }
             for coin in selected_coins
         }
