@@ -1,0 +1,114 @@
+{
+  "last_updated": "2026-06-02T22:34:43.578849+00:00",
+  "source": "orchestrator",
+  "decisions": {
+    "summary": {
+      "cycle_start": "2026-06-02T22:34:43.577795+00:00",
+      "cycle_end": "2026-06-02T22:34:43.578835+00:00",
+      "duration_seconds": 0.00104,
+      "coins_evaluated": 3,
+      "buy_signals": 3,
+      "hold_signals": 0,
+      "switch_signals": 0
+    },
+    "decisions": [
+      {
+        "symbol": "BTC",
+        "timestamp": "2026-06-02T22:34:43.577795+00:00",
+        "assignment": {
+          "assignment": "BUY",
+          "best_method": "mean_reversion",
+          "best_score": 65,
+          "all_scores": {
+            "momentum": 20,
+            "mean_reversion": 65,
+            "breakout": 45
+          },
+          "reason": "New position in mean_reversion (65)",
+          "signals": [
+            "RSI 46.8 (ranging)",
+            "Price near mean (-0.5%)",
+            "ATR 0.59% (low)"
+          ],
+          "method_details": {
+            "score": 65,
+            "signals": [
+              "RSI 46.8 (ranging)",
+              "Price near mean (-0.5%)",
+              "ATR 0.59% (low)"
+            ],
+            "recommendation": "BUY",
+            "method": "mean_reversion"
+          }
+        },
+        "whale_score": 50,
+        "current_price": 67161.49
+      },
+      {
+        "symbol": "ETH",
+        "timestamp": "2026-06-02T22:34:43.577795+00:00",
+        "assignment": {
+          "assignment": "BUY",
+          "best_method": "mean_reversion",
+          "best_score": 65,
+          "all_scores": {
+            "momentum": 20,
+            "mean_reversion": 65,
+            "breakout": 45
+          },
+          "reason": "New position in mean_reversion (65)",
+          "signals": [
+            "RSI 40.3 (ranging)",
+            "Price near mean (-0.6%)",
+            "ATR 0.65% (low)"
+          ],
+          "method_details": {
+            "score": 65,
+            "signals": [
+              "RSI 40.3 (ranging)",
+              "Price near mean (-0.6%)",
+              "ATR 0.65% (low)"
+            ],
+            "recommendation": "BUY",
+            "method": "mean_reversion"
+          }
+        },
+        "whale_score": 58,
+        "current_price": 1896.4
+      },
+      {
+        "symbol": "SOL",
+        "timestamp": "2026-06-02T22:34:43.577795+00:00",
+        "assignment": {
+          "assignment": "BUY",
+          "best_method": "mean_reversion",
+          "best_score": 65,
+          "all_scores": {
+            "momentum": 20,
+            "mean_reversion": 65,
+            "breakout": 45
+          },
+          "reason": "New position in mean_reversion (65)",
+          "signals": [
+            "RSI 42.0 (ranging)",
+            "Price near mean (-0.8%)",
+            "ATR 0.72% (low)"
+          ],
+          "method_details": {
+            "score": 65,
+            "signals": [
+              "RSI 42.0 (ranging)",
+              "Price near mean (-0.8%)",
+              "ATR 0.72% (low)"
+            ],
+            "recommendation": "BUY",
+            "method": "mean_reversion"
+          }
+        },
+        "whale_score": 50,
+        "current_price": 75.2
+      }
+    ]
+  },
+  "ready_for_bots": true
+}

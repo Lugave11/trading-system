@@ -1,0 +1,39 @@
+{
+  "coins": {},
+  "summary": {
+    "total_coins_analyzed": 0,
+    "bullish_coins": 0,
+    "bearish_coins": 0,
+    "neutral_coins": 0,
+    "whale_signals": {
+      "total": 0,
+      "major": 0,
+      "bearish": 0,
+      "bullish": 0
+    },
+    "timestamp": "2026-06-03T04:28:46.464572+00:00"
+  },
+  "discovery": {
+    "scanned": 15,
+    "qualified": 0,
+    "selected": [],
+    "timestamp": "2026-06-03T04:28:29.755821+00:00"
+  },
+  "whale": {
+    "signals": [],
+    "counts": {
+      "total": 0,
+      "major": 0,
+      "bearish": 0,
+      "bullish": 0
+    },
+    "timestamp": "2026-06-03T04:28:46.463130+00:00"
+  },
+  "glassnode": {
+    "coins": [],
+    "signals": {}
+  },
+  "technical": {
+    "signals": {}
+  }
+}

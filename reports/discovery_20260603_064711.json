@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "discovered_coins": [],
+  "glassnode_signal": {
+    "combined_score": 36.0,
+    "signal": "SELL",
+    "action": "Enter SHORT",
+    "confidence": "Low",
+    "bias": "SHORT",
+    "score_adjustment": -30,
+    "allow_long": false,
+    "allow_short": true,
+    "exchange_flow": {
+      "avg_score": 50.0,
+      "signal": "STRONG_DISTRIBUTE"
+    },
+    "whale_wallets": {
+      "score": 15,
+      "signal": "STRONG_DISTRIBUTE",
+      "active": 10
+    }
+  },
+  "action_required": "HOLD",
+  "bias": "SHORT",
+  "selection_summary": {
+    "coins_scanned": 15,
+    "coins_qualified": 0,
+    "top_coins": [],
+    "reason": "No coins scored >= 50"
+  }
+}

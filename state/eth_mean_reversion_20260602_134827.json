@@ -1,0 +1,21 @@
+{
+  "symbol": "ETH",
+  "direction": "LONG",
+  "entry_price": 1978.52,
+  "position_size_usd": 4.0,
+  "position_size_tokens": 0.002021713199765481,
+  "stop_loss": 1919.1644,
+  "take_profit": 2097.2312,
+  "rsi": 48.39,
+  "orchestrator_score": 81.2,
+  "method": "mean_reversion",
+  "status": "OPEN",
+  "timestamp": "2026-06-02T13:48:27.010212+00:00",
+  "signals": [
+    "RSI 48.39 (neutral, good for mean reversion)",
+    "Price near Bollinger bands (position 0.55)",
+    "Low volatility environment",
+    "Whale Score: 50 (neutral)"
+  ],
+  "task_id": "t_258071b4"
+}

@@ -1,0 +1,13 @@
+{
+  "orchestrator_task": "t_366da19b",
+  "evaluation_time": "2026-06-02T20:47:26.030581",
+  "buy_signals": [
+    {
+      "task_id": "t_989935c0",
+      "symbol": "BTC",
+      "method": "mean_reversion",
+      "score": 65
+    }
+  ],
+  "total_signals": 1
+}

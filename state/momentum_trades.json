@@ -1,0 +1,21 @@
+[
+  {
+    "trade_id": "momentum_UNI_2026-06-03T00-34-09",
+    "symbol": "UNI",
+    "direction": "SHORT",
+    "method": "momentum",
+    "entry_price": 2.7964,
+    "stop_loss": 3.0206,
+    "take_profit": 2.6778,
+    "position_size_usd": 5.0,
+    "position_size_coins": 1.788,
+    "risk_reward_ratio": 0.53,
+    "whale_score": 85.0,
+    "reason": "High volatility (5.66% 24h change), whale activity (score 85), bearish momentum",
+    "entry_timestamp": "2026-06-03T00:34:09.962064+00:00",
+    "status": "OPEN",
+    "trailing_stop_active": false,
+    "pnl_usd": 0.0,
+    "pnl_pct": 0.0
+  }
+]

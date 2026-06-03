@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-03T09:56:26.559297+00:00",
+  "capital": {
+    "derivatives_allocation": 7.5,
+    "capital_used": 5.0,
+    "available_capital": 2.5,
+    "max_per_trade": 5.0,
+    "can_trade": false,
+    "open_positions": [
+      "ETH",
+      "BCH"
+    ]
+  },
+  "signals": {
+    "long": [],
+    "short": [],
+    "blocked": [
+      {
+        "symbol": "MATIC",
+        "rsi": 34.41,
+        "signal_type": "LONG",
+        "blocked_reason": "Insufficient capital (need $5.00, have $2.50)"
+      },
+      {
+        "symbol": "BCH",
+        "rsi": 21.58,
+        "signal_type": "LONG",
+        "blocked_reason": "Already has open position"
+      }
+    ]
+  },
+  "analysis": {
+    "coins_analyzed": 15,
+    "long_candidates": 0,
+    "short_candidates": 0,
+    "blocked_count": 2
+  },
+  "action": {
+    "trades_to_create": 0,
+    "selected_signals": [],
+    "reason": "Insufficient capital"
+  }
+}

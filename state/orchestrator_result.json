@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-06-02T23:01:55.158548",
+  "coins_evaluated": 3,
+  "signals_found": 0,
+  "coin_scores": [
+    {
+      "symbol": "BTC",
+      "mean_reversion_score": 40,
+      "momentum_score": 0,
+      "breakout_score": 0,
+      "rsi": 46.287929374831954,
+      "trend": "bearish",
+      "whale_score": 50
+    },
+    {
+      "symbol": "ETH",
+      "mean_reversion_score": 40,
+      "momentum_score": 0,
+      "breakout_score": 0,
+      "rsi": 36.94029850746273,
+      "trend": "bearish",
+      "whale_score": 60
+    },
+    {
+      "symbol": "SOL",
+      "mean_reversion_score": 40,
+      "momentum_score": 0,
+      "breakout_score": 0,
+      "rsi": 36.72787979966605,
+      "trend": "bearish",
+      "whale_score": 66
+    }
+  ],
+  "signals": [],
+  "market_status": "BEARISH - All coins HOLD"
+}

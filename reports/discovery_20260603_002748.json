@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "discovered_coins": [],
+  "selection_summary": {
+    "coins_scanned": 15,
+    "coins_qualified": 0,
+    "top_coins": [],
+    "reason": "No coins scored >= 50"
+  }
+}

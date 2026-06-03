@@ -1,0 +1,124 @@
+{
+  "cycle_timestamp": "2026-06-03T00:02:57.431045+00:00",
+  "cycle_type": "15min_silent",
+  "coins_evaluated": 3,
+  "coins_selected": [
+    "BTC",
+    "ETH",
+    "SOL"
+  ],
+  "signals_generated": 1,
+  "evaluations": [
+    {
+      "symbol": "BTC",
+      "scores": {
+        "mean_reversion": 40.0,
+        "momentum": 25.0,
+        "breakout": 25.0
+      },
+      "best_method": "mean_reversion",
+      "best_score": 40.0,
+      "indicators": {
+        "rsi": 48.38,
+        "macd_line": -301.46,
+        "macd_signal": -261.69,
+        "macd_histogram": -39.77,
+        "ema_20": 67116.67,
+        "ema_50": 67811.47,
+        "atr": 427.66,
+        "volume_ratio": 0.05,
+        "price_vs_ema20_pct": -0.42,
+        "price_vs_ema50_pct": -1.44,
+        "trend": "bearish",
+        "current_price": 66834.52
+      },
+      "whale_score": 50
+    },
+    {
+      "symbol": "ETH",
+      "scores": {
+        "mean_reversion": 71.4,
+        "momentum": 28.0,
+        "breakout": 29.5
+      },
+      "best_method": "mean_reversion",
+      "best_score": 71.4,
+      "indicators": {
+        "rsi": 35.81,
+        "macd_line": -18.11,
+        "macd_signal": -13.56,
+        "macd_histogram": -4.55,
+        "ema_20": 1888.47,
+        "ema_50": 1916.88,
+        "atr": 14.13,
+        "volume_ratio": 0.56,
+        "price_vs_ema20_pct": -1.5,
+        "price_vs_ema50_pct": -2.96,
+        "trend": "bearish",
+        "current_price": 1860.06
+      },
+      "whale_score": 65
+    },
+    {
+      "symbol": "SOL",
+      "scores": {
+        "mean_reversion": 41.6,
+        "momentum": 26.6,
+        "breakout": 27.4
+      },
+      "best_method": "mean_reversion",
+      "best_score": 41.6,
+      "indicators": {
+        "rsi": 43.87,
+        "macd_line": -0.77,
+        "macd_signal": -0.66,
+        "macd_histogram": -0.11,
+        "ema_20": 74.99,
+        "ema_50": 76.35,
+        "atr": 0.61,
+        "volume_ratio": 0.01,
+        "price_vs_ema20_pct": -1.11,
+        "price_vs_ema50_pct": -2.87,
+        "trend": "bearish",
+        "current_price": 74.16
+      },
+      "whale_score": 58
+    }
+  ],
+  "decisions": [
+    {
+      "symbol": "BTC",
+      "action": "HOLD",
+      "method": "mean_reversion",
+      "score": 40.0,
+      "reason": "Score 40.0 < 60 threshold"
+    },
+    {
+      "symbol": "ETH",
+      "action": "BUY",
+      "method": "mean_reversion",
+      "score": 71.4,
+      "entry": 1860.06
+    },
+    {
+      "symbol": "SOL",
+      "action": "HOLD",
+      "method": "mean_reversion",
+      "score": 41.6,
+      "reason": "Score 41.6 < 60 threshold"
+    }
+  ],
+  "child_tasks_created": [
+    {
+      "task_id": "t_3ded133e",
+      "symbol": "ETH",
+      "method": "mean_reversion",
+      "action": "BUY"
+    }
+  ],
+  "summary": {
+    "BTC": "HOLD - mean_reversion 40.0 (RSI 48.38 neutral zone)",
+    "ETH": "BUY - mean_reversion 71.4 (RSI 35.81 approaching oversold, whale score 65)",
+    "SOL": "HOLD - mean_reversion 41.6 (RSI 43.87 neutral zone)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "BTC",
+  "direction": "LONG",
+  "entry_price": 67775.14,
+  "position_size_usd": 5.0,
+  "position_size_coin": 7.377336291743551e-05,
+  "stop_loss": 65741.8858,
+  "take_profit": 71841.6484,
+  "rsi": 37.08,
+  "orchestrator_score": 65,
+  "reason": "RSI 37.1 (ranging zone, near oversold) + Price near mean",
+  "method": "mean_reversion",
+  "status": "OPEN",
+  "timestamp": "2026-06-02T17:30:00+00:00"
+}

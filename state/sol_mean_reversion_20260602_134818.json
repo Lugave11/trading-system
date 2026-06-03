@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "SOL",
+  "direction": "LONG",
+  "entry_price": 79.12,
+  "position_size_usd": 4.0,
+  "position_size_tokens": 0.05055611729019211,
+  "stop_loss": 76.74640000000001,
+  "take_profit": 83.86720000000001,
+  "rsi": 46.38,
+  "orchestrator_score": 75.9,
+  "reason": "RSI 46.38 (neutral zone 30-70), Price near Bollinger middle (0.52), Low volatility environment",
+  "method": "mean_reversion",
+  "timestamp": "2026-06-02T13:48:18.443335+00:00",
+  "status": "OPEN",
+  "signals": [
+    "RSI 46.38 (ranging)",
+    "Price near mean (0.0%)",
+    "Bollinger Position 0.52 (near middle band)",
+    "Low volatility environment"
+  ],
+  "risk_management": {
+    "max_hold_time_hours": 2,
+    "monitor_interval_minutes": 5,
+    "exit_conditions": [
+      "Target hit (take_profit)",
+      "Stop loss hit",
+      "RSI crosses 50 (mean reversion complete)"
+    ]
+  }
+}

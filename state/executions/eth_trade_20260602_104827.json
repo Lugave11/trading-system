@@ -1,0 +1,19 @@
+{
+  "symbol": "ETH",
+  "direction": "LONG",
+  "entry_price": 1977.43,
+  "position_size_usd": 5.0,
+  "position_size_tokens": 0.0025285345119675537,
+  "stop_loss": 1918.1071,
+  "take_profit": 2096.0758,
+  "rsi": 49.2,
+  "orchestrator_score": 65,
+  "method": "mean_reversion",
+  "status": "OPEN",
+  "timestamp": "2026-06-02T10:48:27.283037+00:00",
+  "signals": [
+    "RSI 49.2 (ranging)",
+    "Price near mean (-0.2%)",
+    "ATR 0.25% (low)"
+  ]
+}

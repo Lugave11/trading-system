@@ -1,0 +1,40 @@
+{
+  "cycle_timestamp": "2026-06-03T00:32:32.579928Z",
+  "cycle_type": "00:30 UTC (2-hour update)",
+  "discovered_coins": [
+    {
+      "symbol": "UNI",
+      "total_score": 92.0,
+      "volume_24h": 177161594,
+      "volatility_pct": 5.66,
+      "whale_score": 85
+    }
+  ],
+  "selected_coins": [
+    "UNI"
+  ],
+  "evaluations": [
+    {
+      "symbol": "UNI",
+      "method_scores": {
+        "mean_reversion": 85,
+        "momentum": 100,
+        "breakout": 85
+      },
+      "best_method": "momentum",
+      "best_score": 100,
+      "action": "BUY",
+      "trade_params": {
+        "direction": "SHORT",
+        "entry": 2.7964,
+        "stop_loss": 3.0206,
+        "take_profit": 2.6778
+      },
+      "method_task_id": "t_fe2909ef"
+    }
+  ],
+  "signals_generated": 1,
+  "tasks_created": [
+    "t_fe2909ef"
+  ]
+}

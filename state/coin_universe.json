@@ -1,0 +1,26 @@
+{
+  "coins": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "BNB",
+    "XRP",
+    "ADA",
+    "AVAX",
+    "MATIC",
+    "DOT",
+    "LINK",
+    "UNI",
+    "ATOM",
+    "DOGE",
+    "LTC",
+    "BCH"
+  ],
+  "updated_at": "2026-06-03T00:00:00Z",
+  "updated_by": "initial_setup",
+  "metadata": {
+    "description": "Dynamic coin universe - managed by Orchestrator via Kanban tasks",
+    "glassnode_coverage": "100% (all coins have on-chain data)",
+    "rebalance_frequency": "As needed (Orchestrator decision)"
+  }
+}

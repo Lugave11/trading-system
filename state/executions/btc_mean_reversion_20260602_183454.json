@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "BTC",
+  "direction": "LONG",
+  "entry_price": 67315.89,
+  "position_size_usd": 5.0,
+  "position_qty": 7.427666781201289e-05,
+  "stop_loss": 65296.4133,
+  "take_profit": 71354.8434,
+  "rsi": 40.72,
+  "reason": "Orchestrator mean_reversion BUY signal (score 65) - RSI ranging zone",
+  "method": "mean_reversion",
+  "timestamp": "2026-06-02T18:34:54.358120+00:00",
+  "status": "OPEN"
+}

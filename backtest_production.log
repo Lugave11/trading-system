@@ -1,0 +1,72 @@
+
+================================================================================
+PRODUCTION-GRADE SYSTEM BACKTEST
+================================================================================
+Data Sources:
+  Price: Binance.US API (REAL)
+  Whale: Etherscan API (REAL)
+  News: NewsAPI (CryptoPanic RSS - limited)
+  Strategies: REAL (paper_trading_v4)
+================================================================================
+
+================================================================================
+FETCHING REAL PRICE DATA
+================================================================================
+
+  Fetching BTCUSDT from Binance.US...
+    ✓ 8640 candles (30.0 days)
+
+  Fetching ETHUSDT from Binance.US...
+    ✓ 8640 candles (30.0 days)
+
+  Fetching SOLUSDT from Binance.US...
+    ✓ 8640 candles (30.0 days)
+
+================================================================================
+RUNNING PRODUCTION BACKTEST (REAL DATA ONLY)
+================================================================================
+Period: 30 days @ 5m
+Coins: BTC, ETH, SOL
+Initial Capital: $25.0
+Whale Data: REAL (Etherscan)
+News Data: Simulated
+
+
+================================================================================
+PRE-LOADING REAL HISTORICAL DATA
+================================================================================
+
+  Fetching ETH whale transactions from Etherscan...
+    ✗ API error: NOTOK
+    ✓ 0 whale transactions ($0.1M+)
+
+Data range: 2026-05-03 to 2026-06-02
+Starting simulation...
+
+
+  Complete!
+
+================================================================================
+BACKTEST RESULTS
+================================================================================
+
+📊 PERFORMANCE
+  Initial:     $25.00
+  Final:       $25.18
+  Return:      +0.73%
+  Sharpe:      0.98
+  Max DD:      -5.32%
+  Win Rate:    59.6%
+  Trades:      47
+  Profit Fac:  1.07
+
+⚙️ STATS
+  Data Cycles:     1,728
+  Orch Cycles:     576
+  Signals:         50
+  Trades:          50
+  Wins:            28
+  Losses:          19
+
+💾 Saved: backtest_production.json
+================================================================================

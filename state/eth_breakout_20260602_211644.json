@@ -1,0 +1,51 @@
+{
+  "task_id": "t_cf37ca2f",
+  "method": "breakout",
+  "symbol": "ETH",
+  "timestamp": "2026-06-02T21:18:24.718559+00:00",
+  "status": "PENDING_CONFIRMATION",
+  "execution_type": "paper_trade",
+  "market_analysis": {
+    "current_price": 1908.78,
+    "consolidation_range": {
+      "high": 1918.5,
+      "low": 1883.32,
+      "size_pct": 1.87
+    },
+    "volume_analysis": {
+      "current_volume": 1.28,
+      "avg_volume": 11.0,
+      "volume_ratio": 0.12,
+      "required_ratio": 2.0
+    },
+    "rsi": 39.18,
+    "trend": "bearish"
+  },
+  "breakout_conditions": {
+    "price_above_resistance": false,
+    "volume_spike_confirmed": false,
+    "candle_close_above": false,
+    "distance_to_breakout": 9.72,
+    "distance_to_breakout_pct": 0.51
+  },
+  "trade_parameters": {
+    "entry_trigger": "Price closes above $1918.50 with volume > 2x average",
+    "entry_price": null,
+    "position_size_usd": 5.0,
+    "stop_loss_pct": 0.04,
+    "stop_loss_price": null,
+    "take_profit_pct": 0.1,
+    "take_profit_price": null
+  },
+  "risk_management": {
+    "max_position_usd": 5,
+    "max_concurrent_positions": 2,
+    "false_breakout_protection": "Exit if price falls back below $1918.50"
+  },
+  "assessment": {
+    "orchestrator_breakout_score": 45,
+    "orchestrator_assignment": "mean_reversion (65)",
+    "breakout_ready": false,
+    "reason": "Price below resistance ($1908.78 vs $1918.50), volume low (0.12x vs 2.0x required)"
+  }
+}

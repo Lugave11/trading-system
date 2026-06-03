@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "ETH",
+  "direction": "LONG",
+  "entry_price": 1915.36,
+  "position_size_usd": 5.0,
+  "position_size_tokens": 0.0026104753153454183,
+  "stop_loss": 1857.8991999999998,
+  "take_profit": 2030.2816,
+  "rsi": 47.56,
+  "strategy": "rsi_mean_reversion",
+  "method": "mean_reversion",
+  "reason": "Orchestrator BUY signal (score 65) - RSI 47.6 ranging, price near mean (-0.6%)",
+  "timestamp": "2026-06-02T19:19:19.888787+00:00",
+  "status": "OPEN"
+}

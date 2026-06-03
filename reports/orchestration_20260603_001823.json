@@ -1,0 +1,47 @@
+{
+  "cycle_timestamp": "2026-06-03T00:18:23.988042",
+  "cycle_type": "15min_silent",
+  "discovery": {
+    "coins_scanned": 5,
+    "market_regime": "high_volatility",
+    "top_coins": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "BNB",
+      "XRP"
+    ]
+  },
+  "assigned_coins": [
+    "BTC",
+    "ETH",
+    "SOL"
+  ],
+  "evaluations": [
+    {
+      "symbol": "BTC",
+      "best_method": "mean_reversion",
+      "best_score": 74,
+      "action": "BUY",
+      "task_id": "t_34cf35f0"
+    },
+    {
+      "symbol": "ETH",
+      "best_method": "mean_reversion",
+      "best_score": 60,
+      "action": "BUY",
+      "task_id": "t_b1d3d3a2"
+    },
+    {
+      "symbol": "SOL",
+      "best_method": "mean_reversion",
+      "best_score": 40,
+      "action": "HOLD"
+    }
+  ],
+  "signals_generated": 2,
+  "tasks_created": [
+    "t_34cf35f0",
+    "t_b1d3d3a2"
+  ]
+}

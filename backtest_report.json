@@ -1,0 +1,222 @@
+{
+  "summary": {
+    "initial_capital": 25.0,
+    "final_capital": 25.2,
+    "total_return_pct": 0.79,
+    "total_trades": 23,
+    "win_rate_pct": 56.52,
+    "sharpe_ratio": 1.15,
+    "max_drawdown_pct": -2.28,
+    "avg_trade_pnl": 0.01,
+    "profit_factor": 1.29
+  },
+  "trades": [
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 80583.05,
+      "time": "2026-05-07 13:45:00+00:00",
+      "pnl_usd": -0.05795975670725588,
+      "pnl_pct": -1.1591951341451177,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 80792.46,
+      "time": "2026-05-09 20:30:00+00:00",
+      "pnl_usd": 0.05987049280347878,
+      "pnl_pct": 1.1974098560695756,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 80927.2,
+      "time": "2026-05-10 12:30:00+00:00",
+      "pnl_usd": 0.05035741891533771,
+      "pnl_pct": 1.0071483783067543,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 81496.46,
+      "time": "2026-05-11 01:30:00+00:00",
+      "pnl_usd": 0.05153408427391046,
+      "pnl_pct": 1.0306816854782093,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 79627.3,
+      "time": "2026-05-13 18:00:00+00:00",
+      "pnl_usd": -0.07643258224794323,
+      "pnl_pct": -1.5286516449588645,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 79627.3,
+      "time": "2026-05-13 18:00:00+00:00",
+      "pnl_usd": -0.05317258757107037,
+      "pnl_pct": -1.0634517514214075,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "BTCUSDT",
+      "price": 79627.3,
+      "time": "2026-05-13 18:00:00+00:00",
+      "pnl_usd": -0.0765440037593402,
+      "pnl_pct": -1.5308800751868041,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2345.69,
+      "time": "2026-05-06 23:00:00+00:00",
+      "pnl_usd": -0.07601074772240655,
+      "pnl_pct": -1.5202149544481312,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2345.69,
+      "time": "2026-05-06 23:00:00+00:00",
+      "pnl_usd": -0.06596411518478813,
+      "pnl_pct": -1.3192823036957626,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2345.69,
+      "time": "2026-05-06 23:00:00+00:00",
+      "pnl_usd": -0.051266039097210815,
+      "pnl_pct": -1.0253207819442163,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2294.67,
+      "time": "2026-05-07 19:00:00+00:00",
+      "pnl_usd": -0.05833936324167903,
+      "pnl_pct": -1.1667872648335806,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2312.31,
+      "time": "2026-05-08 21:30:00+00:00",
+      "pnl_usd": 0.052020974437404284,
+      "pnl_pct": 1.0404194887480858,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2353.18,
+      "time": "2026-05-10 20:15:00+00:00",
+      "pnl_usd": 0.06759870617066976,
+      "pnl_pct": 1.3519741234133953,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2353.18,
+      "time": "2026-05-10 20:15:00+00:00",
+      "pnl_usd": 0.0616689108672357,
+      "pnl_pct": 1.233378217344714,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2353.18,
+      "time": "2026-05-10 20:15:00+00:00",
+      "pnl_usd": 0.06618039647956414,
+      "pnl_pct": 1.3236079295912826,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2356.95,
+      "time": "2026-05-10 22:15:00+00:00",
+      "pnl_usd": 0.05462195686859806,
+      "pnl_pct": 1.092439137371961,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2312.99,
+      "time": "2026-05-12 05:15:00+00:00",
+      "pnl_usd": -0.0787446808510643,
+      "pnl_pct": -1.574893617021286,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2285.69,
+      "time": "2026-05-12 11:30:00+00:00",
+      "pnl_usd": -0.09234766178554508,
+      "pnl_pct": -1.8469532357109015,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2284.53,
+      "time": "2026-05-12 22:30:00+00:00",
+      "pnl_usd": 0.05892591411564654,
+      "pnl_pct": 1.1785182823129308,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "ETHUSDT",
+      "price": 2297.21,
+      "time": "2026-05-13 05:45:00+00:00",
+      "pnl_usd": 0.059911630345240365,
+      "pnl_pct": 1.1982326069048073,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOLUSDT",
+      "price": 89.2,
+      "time": "2026-05-06 16:30:00+00:00",
+      "pnl_usd": 0.06415351425002892,
+      "pnl_pct": 1.2830702850005786,
+      "exit_reason": "RSI Mean"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOLUSDT",
+      "price": 91.56,
+      "time": "2026-05-08 17:30:00+00:00",
+      "pnl_usd": 0.18636003172085683,
+      "pnl_pct": 3.727200634417137,
+      "exit_reason": "Stop Loss"
+    },
+    {
+      "type": "EXIT",
+      "symbol": "SOLUSDT",
+      "price": 93.7,
+      "time": "2026-05-10 13:30:00+00:00",
+      "pnl_usd": 0.05121293800539099,
+      "pnl_pct": 1.02425876010782,
+      "exit_reason": "RSI Mean"
+    }
+  ]
+}

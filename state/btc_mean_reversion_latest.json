@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "BTC",
+  "direction": "LONG",
+  "entry_price": 67238.75,
+  "position_size_usd": 5.0,
+  "position_size_coin": 7.436188209923593e-05,
+  "stop_loss": 65221.5875,
+  "take_profit": 71273.075,
+  "rsi": 44.9,
+  "reason": "New position in mean_reversion (65)",
+  "method": "mean_reversion",
+  "timestamp": "2026-06-02T18:49:37.350337+00:00",
+  "status": "HOLDING",
+  "last_updated": "2026-06-02T20:03:51.388532+00:00",
+  "last_price": 67210.95,
+  "last_pnl_pct": -0.041345206447179504,
+  "last_pnl_usd": -0.002067260322358975,
+  "last_rsi": 40.9
+}

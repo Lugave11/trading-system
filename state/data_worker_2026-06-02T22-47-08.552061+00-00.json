@@ -1,0 +1,3202 @@
+{
+  "summary": {
+    "cycle_start": "2026-06-02T22:47:06.509893+00:00",
+    "cycle_end": "2026-06-02T22:47:08.552018+00:00",
+    "duration_seconds": 2.04,
+    "coins_processed": 3,
+    "alerts_triggered": 0,
+    "average_whale_score": 55.3,
+    "primary_source": "mexc"
+  },
+  "coin_data": [
+    {
+      "symbol": "BTC",
+      "timestamp": "2026-06-02T22:47:06.509893+00:00",
+      "ohlcv": {
+        "success": true,
+        "symbol": "BTCUSDT",
+        "timeframe": "15m",
+        "candles": [
+          {
+            "timestamp": "2026-06-01 22:00:00+00:00",
+            "open": 71038.13,
+            "high": 71038.13,
+            "low": 70840.69,
+            "close": 70972.19,
+            "volume": 95.51792847,
+            "quote_volume": 1780352100000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:15:00+00:00",
+            "open": 70972.19,
+            "high": 71319.36,
+            "low": 70972.19,
+            "close": 71285.95,
+            "volume": 169.55927352,
+            "quote_volume": 1780353000000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:30:00+00:00",
+            "open": 71285.95,
+            "high": 71358.25,
+            "low": 71078.26,
+            "close": 71136.78,
+            "volume": 58.42851915,
+            "quote_volume": 1780353900000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:45:00+00:00",
+            "open": 71136.78,
+            "high": 71451.59,
+            "low": 71136.78,
+            "close": 71406.62,
+            "volume": 73.62690881,
+            "quote_volume": 1780354800000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:00:00+00:00",
+            "open": 71406.62,
+            "high": 71439.62,
+            "low": 71316.87,
+            "close": 71366.76,
+            "volume": 51.32487512,
+            "quote_volume": 1780355700000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:15:00+00:00",
+            "open": 71366.76,
+            "high": 71471.51,
+            "low": 71250.0,
+            "close": 71250.0,
+            "volume": 63.44962689,
+            "quote_volume": 1780356600000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:30:00+00:00",
+            "open": 71250.0,
+            "high": 71572.67,
+            "low": 71223.9,
+            "close": 71512.37,
+            "volume": 118.99999406,
+            "quote_volume": 1780357500000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:45:00+00:00",
+            "open": 71512.37,
+            "high": 71549.54,
+            "low": 71378.78,
+            "close": 71408.53,
+            "volume": 75.63955529,
+            "quote_volume": 1780358400000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:00:00+00:00",
+            "open": 71408.53,
+            "high": 71411.01,
+            "low": 71256.34,
+            "close": 71272.4,
+            "volume": 113.34421351,
+            "quote_volume": 1780359300000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:15:00+00:00",
+            "open": 71272.4,
+            "high": 71305.81,
+            "low": 71162.01,
+            "close": 71221.62,
+            "volume": 62.86578697,
+            "quote_volume": 1780360200000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:30:00+00:00",
+            "open": 71221.62,
+            "high": 71300.0,
+            "low": 71098.5,
+            "close": 71179.18,
+            "volume": 74.70786415,
+            "quote_volume": 1780361100000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:45:00+00:00",
+            "open": 71179.18,
+            "high": 71296.0,
+            "low": 71149.48,
+            "close": 71284.99,
+            "volume": 91.97026077,
+            "quote_volume": 1780362000000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:00:00+00:00",
+            "open": 71284.99,
+            "high": 71374.61,
+            "low": 71224.58,
+            "close": 71369.07,
+            "volume": 76.30970493,
+            "quote_volume": 1780362900000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:15:00+00:00",
+            "open": 71369.07,
+            "high": 71371.22,
+            "low": 71216.16,
+            "close": 71216.16,
+            "volume": 94.19801939,
+            "quote_volume": 1780363800000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:30:00+00:00",
+            "open": 71216.16,
+            "high": 71224.62,
+            "low": 70778.36,
+            "close": 70957.61,
+            "volume": 233.88419663,
+            "quote_volume": 1780364700000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:45:00+00:00",
+            "open": 70957.61,
+            "high": 70957.61,
+            "low": 70607.85,
+            "close": 70638.49,
+            "volume": 86.27876395,
+            "quote_volume": 1780365600000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:00:00+00:00",
+            "open": 70638.49,
+            "high": 70716.59,
+            "low": 70113.31,
+            "close": 70343.78,
+            "volume": 266.42266341,
+            "quote_volume": 1780366500000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:15:00+00:00",
+            "open": 70343.78,
+            "high": 70823.42,
+            "low": 70163.45,
+            "close": 70806.92,
+            "volume": 169.02255934,
+            "quote_volume": 1780367400000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:30:00+00:00",
+            "open": 70806.92,
+            "high": 70876.57,
+            "low": 70584.9,
+            "close": 70607.13,
+            "volume": 73.39999535,
+            "quote_volume": 1780368300000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:45:00+00:00",
+            "open": 70607.13,
+            "high": 70850.99,
+            "low": 70588.97,
+            "close": 70849.35,
+            "volume": 58.25146834,
+            "quote_volume": 1780369200000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:00:00+00:00",
+            "open": 70849.35,
+            "high": 71039.8,
+            "low": 70819.12,
+            "close": 70905.25,
+            "volume": 73.7336425,
+            "quote_volume": 1780370100000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:15:00+00:00",
+            "open": 70905.25,
+            "high": 71002.35,
+            "low": 70825.87,
+            "close": 70961.79,
+            "volume": 48.97026937,
+            "quote_volume": 1780371000000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:30:00+00:00",
+            "open": 70961.79,
+            "high": 71006.43,
+            "low": 70919.82,
+            "close": 70992.07,
+            "volume": 67.42505804,
+            "quote_volume": 1780371900000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:45:00+00:00",
+            "open": 70992.07,
+            "high": 71012.18,
+            "low": 70947.41,
+            "close": 70955.24,
+            "volume": 66.33915424,
+            "quote_volume": 1780372800000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:00:00+00:00",
+            "open": 70955.24,
+            "high": 71016.26,
+            "low": 70726.48,
+            "close": 70770.31,
+            "volume": 60.51768176,
+            "quote_volume": 1780373700000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:15:00+00:00",
+            "open": 70770.31,
+            "high": 71022.67,
+            "low": 70770.3,
+            "close": 70987.81,
+            "volume": 77.65346766,
+            "quote_volume": 1780374600000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:30:00+00:00",
+            "open": 70987.81,
+            "high": 71046.0,
+            "low": 70928.94,
+            "close": 71023.99,
+            "volume": 43.21802302,
+            "quote_volume": 1780375500000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:45:00+00:00",
+            "open": 71023.99,
+            "high": 71024.0,
+            "low": 70765.6,
+            "close": 70811.78,
+            "volume": 66.25087855,
+            "quote_volume": 1780376400000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:00:00+00:00",
+            "open": 70811.78,
+            "high": 70848.98,
+            "low": 70594.91,
+            "close": 70814.07,
+            "volume": 73.81187649,
+            "quote_volume": 1780377300000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:15:00+00:00",
+            "open": 70814.07,
+            "high": 70814.07,
+            "low": 70587.84,
+            "close": 70604.12,
+            "volume": 52.44882292,
+            "quote_volume": 1780378200000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:30:00+00:00",
+            "open": 70604.12,
+            "high": 70725.09,
+            "low": 70440.87,
+            "close": 70533.65,
+            "volume": 138.77528324,
+            "quote_volume": 1780379100000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:45:00+00:00",
+            "open": 70533.65,
+            "high": 70535.99,
+            "low": 70269.4,
+            "close": 70269.4,
+            "volume": 154.41676001,
+            "quote_volume": 1780380000000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:00:00+00:00",
+            "open": 70269.4,
+            "high": 70441.77,
+            "low": 70235.6,
+            "close": 70312.96,
+            "volume": 92.99651744,
+            "quote_volume": 1780380900000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:15:00+00:00",
+            "open": 70312.96,
+            "high": 70394.72,
+            "low": 70231.48,
+            "close": 70372.36,
+            "volume": 68.12955081,
+            "quote_volume": 1780381800000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:30:00+00:00",
+            "open": 70372.36,
+            "high": 70426.57,
+            "low": 70258.68,
+            "close": 70258.69,
+            "volume": 155.63082235,
+            "quote_volume": 1780382700000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:45:00+00:00",
+            "open": 70258.69,
+            "high": 70333.3,
+            "low": 69956.22,
+            "close": 70110.44,
+            "volume": 265.70400703,
+            "quote_volume": 1780383600000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:00:00+00:00",
+            "open": 70110.44,
+            "high": 70156.38,
+            "low": 69754.79,
+            "close": 70054.54,
+            "volume": 231.58780794,
+            "quote_volume": 1780384500000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:15:00+00:00",
+            "open": 70054.54,
+            "high": 70274.34,
+            "low": 69850.0,
+            "close": 69917.71,
+            "volume": 114.81667448,
+            "quote_volume": 1780385400000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:30:00+00:00",
+            "open": 69917.71,
+            "high": 70256.28,
+            "low": 69910.75,
+            "close": 70218.43,
+            "volume": 161.59982782,
+            "quote_volume": 1780386300000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:45:00+00:00",
+            "open": 70218.43,
+            "high": 70218.44,
+            "low": 70080.44,
+            "close": 70123.89,
+            "volume": 116.38539977,
+            "quote_volume": 1780387200000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:00:00+00:00",
+            "open": 70123.89,
+            "high": 70174.09,
+            "low": 69968.79,
+            "close": 70062.47,
+            "volume": 119.45756409,
+            "quote_volume": 1780388100000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:15:00+00:00",
+            "open": 70062.47,
+            "high": 70092.16,
+            "low": 69885.61,
+            "close": 70024.75,
+            "volume": 113.70984489,
+            "quote_volume": 1780389000000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:30:00+00:00",
+            "open": 70024.75,
+            "high": 70082.39,
+            "low": 69872.73,
+            "close": 69872.73,
+            "volume": 67.67347892,
+            "quote_volume": 1780389900000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:45:00+00:00",
+            "open": 69872.73,
+            "high": 69943.58,
+            "low": 69727.15,
+            "close": 69819.76,
+            "volume": 179.91651916,
+            "quote_volume": 1780390800000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:00:00+00:00",
+            "open": 69819.76,
+            "high": 69853.69,
+            "low": 69502.51,
+            "close": 69561.19,
+            "volume": 321.61150551,
+            "quote_volume": 1780391700000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:15:00+00:00",
+            "open": 69561.19,
+            "high": 69631.18,
+            "low": 69334.72,
+            "close": 69402.86,
+            "volume": 192.77904713,
+            "quote_volume": 1780392600000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:30:00+00:00",
+            "open": 69402.86,
+            "high": 69570.76,
+            "low": 69359.93,
+            "close": 69500.16,
+            "volume": 159.809211,
+            "quote_volume": 1780393500000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:45:00+00:00",
+            "open": 69500.16,
+            "high": 69530.33,
+            "low": 69381.78,
+            "close": 69430.4,
+            "volume": 93.49085512,
+            "quote_volume": 1780394400000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:00:00+00:00",
+            "open": 69430.4,
+            "high": 69751.43,
+            "low": 69355.86,
+            "close": 69658.81,
+            "volume": 214.79849098,
+            "quote_volume": 1780395300000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:15:00+00:00",
+            "open": 69658.81,
+            "high": 69725.01,
+            "low": 69520.0,
+            "close": 69645.95,
+            "volume": 70.18397203,
+            "quote_volume": 1780396200000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:30:00+00:00",
+            "open": 69645.95,
+            "high": 69673.84,
+            "low": 69450.0,
+            "close": 69477.57,
+            "volume": 73.02658911,
+            "quote_volume": 1780397100000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:45:00+00:00",
+            "open": 69477.57,
+            "high": 69696.43,
+            "low": 69477.57,
+            "close": 69659.92,
+            "volume": 101.84463049,
+            "quote_volume": 1780398000000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:00:00+00:00",
+            "open": 69659.92,
+            "high": 69667.38,
+            "low": 69510.0,
+            "close": 69556.32,
+            "volume": 49.58663311,
+            "quote_volume": 1780398900000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:15:00+00:00",
+            "open": 69556.32,
+            "high": 69574.22,
+            "low": 69428.55,
+            "close": 69492.35,
+            "volume": 55.93748722,
+            "quote_volume": 1780399800000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:30:00+00:00",
+            "open": 69492.35,
+            "high": 69532.0,
+            "low": 69414.55,
+            "close": 69475.74,
+            "volume": 59.44896857,
+            "quote_volume": 1780400700000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:45:00+00:00",
+            "open": 69475.74,
+            "high": 69613.92,
+            "low": 69473.38,
+            "close": 69473.38,
+            "volume": 46.12892765,
+            "quote_volume": 1780401600000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:00:00+00:00",
+            "open": 69473.38,
+            "high": 69550.59,
+            "low": 69292.28,
+            "close": 69346.45,
+            "volume": 186.43798999,
+            "quote_volume": 1780402500000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:15:00+00:00",
+            "open": 69346.45,
+            "high": 69441.39,
+            "low": 69246.27,
+            "close": 69288.35,
+            "volume": 107.99769488,
+            "quote_volume": 1780403400000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:30:00+00:00",
+            "open": 69288.35,
+            "high": 69288.36,
+            "low": 69082.84,
+            "close": 69220.02,
+            "volume": 217.16532418,
+            "quote_volume": 1780404300000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:45:00+00:00",
+            "open": 69220.02,
+            "high": 69260.88,
+            "low": 69003.01,
+            "close": 69019.61,
+            "volume": 153.21407165,
+            "quote_volume": 1780405200000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:00:00+00:00",
+            "open": 69019.61,
+            "high": 69184.45,
+            "low": 68903.49,
+            "close": 68923.02,
+            "volume": 308.63913828,
+            "quote_volume": 1780406100000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:15:00+00:00",
+            "open": 68923.02,
+            "high": 69100.0,
+            "low": 68878.59,
+            "close": 69034.15,
+            "volume": 211.97639483,
+            "quote_volume": 1780407000000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:30:00+00:00",
+            "open": 69034.15,
+            "high": 69106.99,
+            "low": 68785.8,
+            "close": 68889.21,
+            "volume": 290.35040037,
+            "quote_volume": 1780407900000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:45:00+00:00",
+            "open": 68889.21,
+            "high": 68983.95,
+            "low": 68767.02,
+            "close": 68801.13,
+            "volume": 149.2600937,
+            "quote_volume": 1780408800000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:00:00+00:00",
+            "open": 68801.13,
+            "high": 68837.97,
+            "low": 68320.1,
+            "close": 68596.17,
+            "volume": 402.07634628,
+            "quote_volume": 1780409700000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:15:00+00:00",
+            "open": 68596.17,
+            "high": 68596.17,
+            "low": 67614.46,
+            "close": 67893.0,
+            "volume": 347.34921084,
+            "quote_volume": 1780410600000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:30:00+00:00",
+            "open": 67893.0,
+            "high": 68274.48,
+            "low": 67869.01,
+            "close": 68022.99,
+            "volume": 273.77102826,
+            "quote_volume": 1780411500000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:45:00+00:00",
+            "open": 68022.99,
+            "high": 68278.68,
+            "low": 67994.92,
+            "close": 68030.2,
+            "volume": 212.12758689,
+            "quote_volume": 1780412400000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:00:00+00:00",
+            "open": 68030.2,
+            "high": 68088.2,
+            "low": 67823.74,
+            "close": 67856.07,
+            "volume": 222.02892052,
+            "quote_volume": 1780413300000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:15:00+00:00",
+            "open": 67856.07,
+            "high": 67856.9,
+            "low": 67366.0,
+            "close": 67476.63,
+            "volume": 235.37435285,
+            "quote_volume": 1780414200000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:30:00+00:00",
+            "open": 67476.63,
+            "high": 67499.96,
+            "low": 67074.99,
+            "close": 67276.18,
+            "volume": 324.42215355,
+            "quote_volume": 1780415100000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:45:00+00:00",
+            "open": 67276.18,
+            "high": 67496.85,
+            "low": 67126.71,
+            "close": 67305.48,
+            "volume": 203.43606901,
+            "quote_volume": 1780416000000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:00:00+00:00",
+            "open": 67305.48,
+            "high": 67980.88,
+            "low": 67236.31,
+            "close": 67928.12,
+            "volume": 200.8115879,
+            "quote_volume": 1780416900000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:15:00+00:00",
+            "open": 67928.12,
+            "high": 68154.22,
+            "low": 67788.44,
+            "close": 67867.49,
+            "volume": 219.11148011,
+            "quote_volume": 1780417800000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:30:00+00:00",
+            "open": 67867.49,
+            "high": 67868.95,
+            "low": 67545.79,
+            "close": 67635.38,
+            "volume": 247.84120501,
+            "quote_volume": 1780418700000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:45:00+00:00",
+            "open": 67635.38,
+            "high": 67820.0,
+            "low": 67410.91,
+            "close": 67417.72,
+            "volume": 158.90521521,
+            "quote_volume": 1780419600000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:00:00+00:00",
+            "open": 67417.72,
+            "high": 67616.24,
+            "low": 67380.01,
+            "close": 67509.01,
+            "volume": 114.59008522,
+            "quote_volume": 1780420500000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:15:00+00:00",
+            "open": 67509.01,
+            "high": 67812.12,
+            "low": 67477.92,
+            "close": 67738.87,
+            "volume": 103.54048049,
+            "quote_volume": 1780421400000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:30:00+00:00",
+            "open": 67738.87,
+            "high": 67839.55,
+            "low": 67476.78,
+            "close": 67494.39,
+            "volume": 92.07001025,
+            "quote_volume": 1780422300000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:45:00+00:00",
+            "open": 67494.39,
+            "high": 67525.77,
+            "low": 67400.01,
+            "close": 67499.94,
+            "volume": 156.70809905,
+            "quote_volume": 1780423200000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:00:00+00:00",
+            "open": 67499.94,
+            "high": 67657.62,
+            "low": 67498.05,
+            "close": 67602.93,
+            "volume": 121.04981648,
+            "quote_volume": 1780424100000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:15:00+00:00",
+            "open": 67602.93,
+            "high": 67621.93,
+            "low": 67300.0,
+            "close": 67301.55,
+            "volume": 123.5033203,
+            "quote_volume": 1780425000000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:30:00+00:00",
+            "open": 67301.55,
+            "high": 67670.53,
+            "low": 67202.07,
+            "close": 67300.71,
+            "volume": 123.9801124,
+            "quote_volume": 1780425900000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:45:00+00:00",
+            "open": 67300.71,
+            "high": 67366.35,
+            "low": 67131.74,
+            "close": 67345.11,
+            "volume": 116.17544326,
+            "quote_volume": 1780426800000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:00:00+00:00",
+            "open": 67345.11,
+            "high": 67426.61,
+            "low": 67231.34,
+            "close": 67348.87,
+            "volume": 152.04074879,
+            "quote_volume": 1780427700000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:15:00+00:00",
+            "open": 67348.87,
+            "high": 67361.36,
+            "low": 66924.56,
+            "close": 66992.5,
+            "volume": 179.71483704,
+            "quote_volume": 1780428600000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:30:00+00:00",
+            "open": 66992.5,
+            "high": 67021.56,
+            "low": 66433.8,
+            "close": 66929.75,
+            "volume": 347.19086251,
+            "quote_volume": 1780429500000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:45:00+00:00",
+            "open": 66929.75,
+            "high": 67510.03,
+            "low": 66873.5,
+            "close": 67315.95,
+            "volume": 189.91532052,
+            "quote_volume": 1780430400000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:00:00+00:00",
+            "open": 67315.95,
+            "high": 67491.4,
+            "low": 67100.0,
+            "close": 67384.29,
+            "volume": 309.50887936,
+            "quote_volume": 1780431300000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:15:00+00:00",
+            "open": 67384.29,
+            "high": 67401.65,
+            "low": 66908.87,
+            "close": 66950.84,
+            "volume": 230.73062992,
+            "quote_volume": 1780432200000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:30:00+00:00",
+            "open": 66950.84,
+            "high": 67358.32,
+            "low": 66950.61,
+            "close": 67303.8,
+            "volume": 160.10992374,
+            "quote_volume": 1780433100000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:45:00+00:00",
+            "open": 67303.8,
+            "high": 67687.99,
+            "low": 67302.11,
+            "close": 67591.62,
+            "volume": 122.11809482,
+            "quote_volume": 1780434000000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:00:00+00:00",
+            "open": 67591.62,
+            "high": 67808.59,
+            "low": 67411.95,
+            "close": 67474.23,
+            "volume": 144.04279488,
+            "quote_volume": 1780434900000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:15:00+00:00",
+            "open": 67474.23,
+            "high": 67920.92,
+            "low": 67472.12,
+            "close": 67882.18,
+            "volume": 98.74303142,
+            "quote_volume": 1780435800000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:30:00+00:00",
+            "open": 67882.18,
+            "high": 67928.48,
+            "low": 67716.36,
+            "close": 67730.17,
+            "volume": 78.71358564,
+            "quote_volume": 1780436700000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:45:00+00:00",
+            "open": 67730.17,
+            "high": 67740.58,
+            "low": 67510.75,
+            "close": 67569.88,
+            "volume": 70.62804956,
+            "quote_volume": 1780437600000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:00:00+00:00",
+            "open": 67569.88,
+            "high": 67569.88,
+            "low": 67215.88,
+            "close": 67220.59,
+            "volume": 110.97393011,
+            "quote_volume": 1780438500000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:15:00+00:00",
+            "open": 67220.59,
+            "high": 67433.1,
+            "low": 66947.34,
+            "close": 67296.21,
+            "volume": 167.56236521,
+            "quote_volume": 1780439400000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:30:00+00:00",
+            "open": 67296.21,
+            "high": 67303.17,
+            "low": 66810.0,
+            "close": 66957.23,
+            "volume": 192.00479893,
+            "quote_volume": 1780440300000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:45:00+00:00",
+            "open": 66957.23,
+            "high": 66957.23,
+            "low": 66761.8,
+            "close": 66761.8,
+            "volume": 57.77725947,
+            "quote_volume": 1780441200000.0
+          }
+        ],
+        "indicators": {
+          "rsi": 46.6,
+          "macd_line": -220.01,
+          "macd_signal": -219.55,
+          "macd_histogram": -0.46,
+          "ema_20": 67380.1,
+          "ema_50": 68026.74,
+          "atr": 408.41,
+          "volume_ratio": 0.37,
+          "price_vs_ema20_pct": -0.92,
+          "price_vs_ema50_pct": -1.86,
+          "trend": "bearish",
+          "current_price": 66761.8
+        },
+        "source": "mexc",
+        "timestamp": "2026-06-02T22:47:07.007053+00:00"
+      },
+      "market": {
+        "success": true,
+        "symbol": "BTC",
+        "coingecko_id": "bitcoin",
+        "current_price_usd": 66730,
+        "market_cap_usd": 1339218170585,
+        "market_cap_rank": 1,
+        "total_volume_usd": 64123365100,
+        "price_change_24h_pct": -6.31499,
+        "price_change_7d_pct": -12.19122,
+        "circulating_supply": 20037956.0,
+        "volume_to_market_cap_ratio": 4.788119404920373,
+        "source": "coingecko",
+        "timestamp": "2026-06-02T22:47:07.060590+00:00"
+      },
+      "whale": {
+        "success": true,
+        "whale_activity_score": 50,
+        "note": "Using volume proxy for BTC"
+      },
+      "news": {
+        "success": true,
+        "articles": [
+          {
+            "title": "U.S. sanctions Iranian crypto exchanges in ongoing war against the country",
+            "link": "https://www.coindesk.com/policy/2026/06/02/u-s-sanctions-iranian-crypto-exchanges-in-ongoing-war-against-country",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 21:49:30 +0000",
+            "description": "OFAC said it was blacklisting Nobitex and three other Iranian exchanges, as well as a few executives, citing links to terror and other crimes. ...",
+            "sentiment": "bullish",
+            "sentiment_score": 70
+          },
+          {
+            "title": "Crypto correction vaporized $176B in investor funds: Are bears back in control? ",
+            "link": "https://cointelegraph.com/markets/crypto-correction-vaporized-176b-in-investor-funds-are-bears-back-in-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 21:16:33 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1tYXJrZXQtY29ycmV...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Crypto PACs pour $3M into Maryland races as California voters head to polls",
+            "link": "https://cointelegraph.com/news/crypto-pacs-maryland-races-media-buys-california-primaries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 21:06:39 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1ibG9ja2NoYWluLWF...",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
+            "link": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 20:09:53 +0000",
+            "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week....",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Coinbase invests in ProShares ETF tailored for stablecoin reserve assets",
+            "link": "https://cointelegraph.com/news/coinbase-invests-proshares-etf-tailored-stablecoin-reserve-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 20:09:26 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1jaGluYS1pcy1wdW1...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Bitcoin\u2019s $224K \u2018fair value\u2019 may emerge if sovereign debt fears deepen: Bitwise",
+            "link": "https://cointelegraph.com/markets/bitcoins-224k-fair-value-could-emerge-if-sovereign-debt-fears-deepen-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 19:28:01 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1iaXRjb2luLWFkb3B...",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Galaxy enters institutional prediction markets with $10 million Arca trade",
+            "link": "https://www.coindesk.com/markets/2026/06/02/galaxy-enters-institutional-prediction-markets-with-usd10-million-arca-trade",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 19:17:12 +0000",
+            "description": "The digital asset firm launched OTC prediction markets trading for institutions and completed a $10 million trade tied to U.S. crypto legislation with hedge fund Arca....",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Tom Lee predicts ether will hit $250,000 as corporate validators take over network control",
+            "link": "https://www.coindesk.com/markets/2026/06/02/tom-lee-predicts-eth-will-hit-usd250-000-as-corporate-validators-take-over-network-control",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 18:42:40 +0000",
+            "description": "The Bitmine chairman said DeFi and AI could push the Ethereum network's value into the multi-trillion range, making current prices \u201cfuture optionality at a discount\u201d....",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Bitcoin set for 'choppy summer' as capital chases high-flying AI stocks, K33 says",
+            "link": "https://www.coindesk.com/markets/2026/06/02/bitcoin-set-for-choppy-summer-as-capital-chases-high-flying-ai-stocks-k33-says",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 18:42:37 +0000",
+            "description": "The firm still views bitcoin as undervalued relative to equities, but says investors are rotating into AI stocks as the opportunity cost of missing gains by holding BTC is too high....",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Bitcoin gets new $50K target after BTC price crashes 6% in a day",
+            "link": "https://cointelegraph.com/markets/bitcoin-gets-new-50k-target-after-btc-price-crashes-6-in-a-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 17:54:18 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9kb2N0b3ItbWVkaWNpbmU...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          }
+        ],
+        "article_count": 10,
+        "bullish_count": 1,
+        "bearish_count": 5,
+        "neutral_count": 4,
+        "average_sentiment_score": 42.0,
+        "news_sentiment": "bearish",
+        "sources": [
+          "CoinDesk",
+          "Cointelegraph",
+          "CryptoSlate",
+          "The Defiant"
+        ],
+        "timestamp": "2026-06-02T22:47:06.842076+00:00"
+      },
+      "whale_score": 50,
+      "alert": {
+        "alert_triggered": false,
+        "alert_reason": null,
+        "alert_count": 0
+      }
+    },
+    {
+      "symbol": "ETH",
+      "timestamp": "2026-06-02T22:47:06.509893+00:00",
+      "ohlcv": {
+        "success": true,
+        "symbol": "ETHUSDT",
+        "timeframe": "15m",
+        "candles": [
+          {
+            "timestamp": "2026-06-01 22:00:00+00:00",
+            "open": 1994.58,
+            "high": 1994.58,
+            "low": 1984.48,
+            "close": 1990.32,
+            "volume": 1710.2691,
+            "quote_volume": 1780352100000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:15:00+00:00",
+            "open": 1990.32,
+            "high": 2002.64,
+            "low": 1989.53,
+            "close": 1999.64,
+            "volume": 1944.83249,
+            "quote_volume": 1780353000000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:30:00+00:00",
+            "open": 1999.64,
+            "high": 2001.37,
+            "low": 1992.21,
+            "close": 1995.8,
+            "volume": 952.48152,
+            "quote_volume": 1780353900000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:45:00+00:00",
+            "open": 1995.8,
+            "high": 2005.64,
+            "low": 1995.8,
+            "close": 2004.35,
+            "volume": 1772.17478,
+            "quote_volume": 1780354800000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:00:00+00:00",
+            "open": 2004.35,
+            "high": 2006.3,
+            "low": 2001.14,
+            "close": 2002.7,
+            "volume": 2402.25985,
+            "quote_volume": 1780355700000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:15:00+00:00",
+            "open": 2002.7,
+            "high": 2007.49,
+            "low": 1998.72,
+            "close": 1998.72,
+            "volume": 1246.79994,
+            "quote_volume": 1780356600000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:30:00+00:00",
+            "open": 1998.72,
+            "high": 2008.19,
+            "low": 1998.41,
+            "close": 2005.02,
+            "volume": 1438.6651,
+            "quote_volume": 1780357500000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:45:00+00:00",
+            "open": 2005.02,
+            "high": 2007.64,
+            "low": 2004.0,
+            "close": 2006.58,
+            "volume": 899.59404,
+            "quote_volume": 1780358400000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:00:00+00:00",
+            "open": 2006.58,
+            "high": 2006.82,
+            "low": 2003.36,
+            "close": 2003.97,
+            "volume": 1039.09756,
+            "quote_volume": 1780359300000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:15:00+00:00",
+            "open": 2003.97,
+            "high": 2005.27,
+            "low": 1998.14,
+            "close": 2000.69,
+            "volume": 1337.11274,
+            "quote_volume": 1780360200000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:30:00+00:00",
+            "open": 2000.69,
+            "high": 2002.35,
+            "low": 1995.64,
+            "close": 1998.05,
+            "volume": 656.12642,
+            "quote_volume": 1780361100000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:45:00+00:00",
+            "open": 1998.05,
+            "high": 2000.0,
+            "low": 1996.5,
+            "close": 1996.62,
+            "volume": 403.9373,
+            "quote_volume": 1780362000000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:00:00+00:00",
+            "open": 1996.62,
+            "high": 1998.48,
+            "low": 1992.64,
+            "close": 1998.47,
+            "volume": 875.59728,
+            "quote_volume": 1780362900000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:15:00+00:00",
+            "open": 1998.47,
+            "high": 1998.64,
+            "low": 1991.64,
+            "close": 1991.64,
+            "volume": 645.34512,
+            "quote_volume": 1780363800000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:30:00+00:00",
+            "open": 1991.64,
+            "high": 1993.39,
+            "low": 1982.5,
+            "close": 1986.43,
+            "volume": 2234.26405,
+            "quote_volume": 1780364700000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:45:00+00:00",
+            "open": 1986.43,
+            "high": 1986.44,
+            "low": 1979.64,
+            "close": 1979.64,
+            "volume": 1207.90323,
+            "quote_volume": 1780365600000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:00:00+00:00",
+            "open": 1979.64,
+            "high": 1981.25,
+            "low": 1962.9,
+            "close": 1972.6,
+            "volume": 3372.74184,
+            "quote_volume": 1780366500000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:15:00+00:00",
+            "open": 1972.6,
+            "high": 1989.91,
+            "low": 1968.64,
+            "close": 1989.22,
+            "volume": 2755.75527,
+            "quote_volume": 1780367400000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:30:00+00:00",
+            "open": 1989.22,
+            "high": 1994.14,
+            "low": 1985.14,
+            "close": 1985.52,
+            "volume": 2008.7431,
+            "quote_volume": 1780368300000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:45:00+00:00",
+            "open": 1985.52,
+            "high": 1996.64,
+            "low": 1984.71,
+            "close": 1996.64,
+            "volume": 1794.02213,
+            "quote_volume": 1780369200000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:00:00+00:00",
+            "open": 1996.64,
+            "high": 2002.64,
+            "low": 1995.05,
+            "close": 1998.5,
+            "volume": 1850.64385,
+            "quote_volume": 1780370100000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:15:00+00:00",
+            "open": 1998.5,
+            "high": 2002.08,
+            "low": 1996.5,
+            "close": 2001.06,
+            "volume": 1268.89567,
+            "quote_volume": 1780371000000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:30:00+00:00",
+            "open": 2001.06,
+            "high": 2004.97,
+            "low": 1999.78,
+            "close": 2003.93,
+            "volume": 1562.15098,
+            "quote_volume": 1780371900000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:45:00+00:00",
+            "open": 2003.93,
+            "high": 2004.91,
+            "low": 2002.06,
+            "close": 2003.65,
+            "volume": 814.46573,
+            "quote_volume": 1780372800000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:00:00+00:00",
+            "open": 2003.65,
+            "high": 2005.62,
+            "low": 1997.14,
+            "close": 1998.14,
+            "volume": 1612.60641,
+            "quote_volume": 1780373700000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:15:00+00:00",
+            "open": 1998.14,
+            "high": 2005.99,
+            "low": 1998.14,
+            "close": 2004.32,
+            "volume": 1127.95056,
+            "quote_volume": 1780374600000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:30:00+00:00",
+            "open": 2004.32,
+            "high": 2005.09,
+            "low": 2001.14,
+            "close": 2001.88,
+            "volume": 853.88749,
+            "quote_volume": 1780375500000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:45:00+00:00",
+            "open": 2001.88,
+            "high": 2001.89,
+            "low": 1996.19,
+            "close": 1996.85,
+            "volume": 1023.19483,
+            "quote_volume": 1780376400000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:00:00+00:00",
+            "open": 1996.85,
+            "high": 2001.06,
+            "low": 1990.14,
+            "close": 2000.07,
+            "volume": 1665.8257,
+            "quote_volume": 1780377300000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:15:00+00:00",
+            "open": 2000.07,
+            "high": 2000.48,
+            "low": 1991.64,
+            "close": 1992.29,
+            "volume": 1283.63294,
+            "quote_volume": 1780378200000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:30:00+00:00",
+            "open": 1992.29,
+            "high": 1995.54,
+            "low": 1987.35,
+            "close": 1991.5,
+            "volume": 1538.50056,
+            "quote_volume": 1780379100000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:45:00+00:00",
+            "open": 1991.5,
+            "high": 1991.87,
+            "low": 1984.72,
+            "close": 1984.86,
+            "volume": 2412.50339,
+            "quote_volume": 1780380000000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:00:00+00:00",
+            "open": 1984.86,
+            "high": 1988.5,
+            "low": 1980.35,
+            "close": 1982.28,
+            "volume": 1994.37473,
+            "quote_volume": 1780380900000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:15:00+00:00",
+            "open": 1982.28,
+            "high": 1985.41,
+            "low": 1980.0,
+            "close": 1985.08,
+            "volume": 948.92766,
+            "quote_volume": 1780381800000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:30:00+00:00",
+            "open": 1985.08,
+            "high": 1988.77,
+            "low": 1984.59,
+            "close": 1984.6,
+            "volume": 1463.94997,
+            "quote_volume": 1780382700000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:45:00+00:00",
+            "open": 1984.6,
+            "high": 1987.14,
+            "low": 1978.18,
+            "close": 1982.25,
+            "volume": 2085.16186,
+            "quote_volume": 1780383600000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:00:00+00:00",
+            "open": 1982.25,
+            "high": 1983.86,
+            "low": 1974.14,
+            "close": 1981.45,
+            "volume": 1735.28629,
+            "quote_volume": 1780384500000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:15:00+00:00",
+            "open": 1981.45,
+            "high": 1989.68,
+            "low": 1977.13,
+            "close": 1978.68,
+            "volume": 1713.03673,
+            "quote_volume": 1780385400000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:30:00+00:00",
+            "open": 1978.68,
+            "high": 1989.13,
+            "low": 1978.57,
+            "close": 1986.51,
+            "volume": 1936.47701,
+            "quote_volume": 1780386300000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:45:00+00:00",
+            "open": 1986.51,
+            "high": 1986.52,
+            "low": 1982.14,
+            "close": 1982.15,
+            "volume": 1130.55516,
+            "quote_volume": 1780387200000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:00:00+00:00",
+            "open": 1982.15,
+            "high": 1984.89,
+            "low": 1979.14,
+            "close": 1984.05,
+            "volume": 1091.71517,
+            "quote_volume": 1780388100000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:15:00+00:00",
+            "open": 1984.05,
+            "high": 1988.89,
+            "low": 1980.14,
+            "close": 1985.3,
+            "volume": 1814.7278,
+            "quote_volume": 1780389000000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:30:00+00:00",
+            "open": 1985.3,
+            "high": 1988.59,
+            "low": 1981.14,
+            "close": 1981.14,
+            "volume": 669.09061,
+            "quote_volume": 1780389900000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:45:00+00:00",
+            "open": 1981.14,
+            "high": 1982.62,
+            "low": 1977.14,
+            "close": 1979.04,
+            "volume": 988.22749,
+            "quote_volume": 1780390800000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:00:00+00:00",
+            "open": 1979.04,
+            "high": 1979.84,
+            "low": 1971.18,
+            "close": 1972.74,
+            "volume": 2071.39966,
+            "quote_volume": 1780391700000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:15:00+00:00",
+            "open": 1972.74,
+            "high": 1973.14,
+            "low": 1966.73,
+            "close": 1969.12,
+            "volume": 1926.62982,
+            "quote_volume": 1780392600000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:30:00+00:00",
+            "open": 1969.12,
+            "high": 1976.0,
+            "low": 1967.83,
+            "close": 1972.52,
+            "volume": 1266.22326,
+            "quote_volume": 1780393500000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:45:00+00:00",
+            "open": 1972.52,
+            "high": 1976.53,
+            "low": 1970.34,
+            "close": 1975.31,
+            "volume": 3060.27352,
+            "quote_volume": 1780394400000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:00:00+00:00",
+            "open": 1975.31,
+            "high": 1979.92,
+            "low": 1972.0,
+            "close": 1978.02,
+            "volume": 2455.39947,
+            "quote_volume": 1780395300000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:15:00+00:00",
+            "open": 1978.02,
+            "high": 1980.23,
+            "low": 1976.49,
+            "close": 1979.79,
+            "volume": 959.42154,
+            "quote_volume": 1780396200000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:30:00+00:00",
+            "open": 1979.79,
+            "high": 1980.64,
+            "low": 1975.64,
+            "close": 1976.01,
+            "volume": 946.12385,
+            "quote_volume": 1780397100000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:45:00+00:00",
+            "open": 1976.01,
+            "high": 1984.01,
+            "low": 1975.99,
+            "close": 1983.63,
+            "volume": 960.41011,
+            "quote_volume": 1780398000000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:00:00+00:00",
+            "open": 1983.63,
+            "high": 1983.63,
+            "low": 1979.6,
+            "close": 1981.17,
+            "volume": 678.86457,
+            "quote_volume": 1780398900000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:15:00+00:00",
+            "open": 1981.17,
+            "high": 1981.17,
+            "low": 1977.19,
+            "close": 1977.64,
+            "volume": 618.23198,
+            "quote_volume": 1780399800000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:30:00+00:00",
+            "open": 1977.64,
+            "high": 1979.64,
+            "low": 1976.0,
+            "close": 1978.4,
+            "volume": 1221.71571,
+            "quote_volume": 1780400700000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:45:00+00:00",
+            "open": 1978.4,
+            "high": 1981.64,
+            "low": 1977.93,
+            "close": 1978.89,
+            "volume": 727.9083,
+            "quote_volume": 1780401600000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:00:00+00:00",
+            "open": 1978.89,
+            "high": 1981.5,
+            "low": 1975.65,
+            "close": 1977.85,
+            "volume": 1125.70813,
+            "quote_volume": 1780402500000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:15:00+00:00",
+            "open": 1977.85,
+            "high": 1982.58,
+            "low": 1975.64,
+            "close": 1980.03,
+            "volume": 751.1908,
+            "quote_volume": 1780403400000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:30:00+00:00",
+            "open": 1980.03,
+            "high": 1980.13,
+            "low": 1972.64,
+            "close": 1979.0,
+            "volume": 4780.27723,
+            "quote_volume": 1780404300000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:45:00+00:00",
+            "open": 1979.0,
+            "high": 1979.89,
+            "low": 1975.16,
+            "close": 1976.0,
+            "volume": 844.65648,
+            "quote_volume": 1780405200000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:00:00+00:00",
+            "open": 1976.0,
+            "high": 1979.92,
+            "low": 1973.26,
+            "close": 1973.27,
+            "volume": 1745.69473,
+            "quote_volume": 1780406100000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:15:00+00:00",
+            "open": 1973.27,
+            "high": 1981.0,
+            "low": 1973.27,
+            "close": 1979.71,
+            "volume": 1395.31797,
+            "quote_volume": 1780407000000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:30:00+00:00",
+            "open": 1979.71,
+            "high": 1981.56,
+            "low": 1970.52,
+            "close": 1976.69,
+            "volume": 2117.93773,
+            "quote_volume": 1780407900000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:45:00+00:00",
+            "open": 1976.69,
+            "high": 1979.14,
+            "low": 1972.0,
+            "close": 1974.25,
+            "volume": 1444.65363,
+            "quote_volume": 1780408800000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:00:00+00:00",
+            "open": 1974.25,
+            "high": 1975.11,
+            "low": 1960.0,
+            "close": 1967.92,
+            "volume": 2791.43306,
+            "quote_volume": 1780409700000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:15:00+00:00",
+            "open": 1967.92,
+            "high": 1968.01,
+            "low": 1925.81,
+            "close": 1936.84,
+            "volume": 11861.63901,
+            "quote_volume": 1780410600000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:30:00+00:00",
+            "open": 1936.84,
+            "high": 1947.63,
+            "low": 1932.4,
+            "close": 1936.1,
+            "volume": 6006.86062,
+            "quote_volume": 1780411500000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:45:00+00:00",
+            "open": 1936.1,
+            "high": 1945.81,
+            "low": 1936.05,
+            "close": 1941.59,
+            "volume": 2545.67603,
+            "quote_volume": 1780412400000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:00:00+00:00",
+            "open": 1941.59,
+            "high": 1941.73,
+            "low": 1932.29,
+            "close": 1934.9,
+            "volume": 5878.64204,
+            "quote_volume": 1780413300000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:15:00+00:00",
+            "open": 1934.9,
+            "high": 1934.92,
+            "low": 1908.0,
+            "close": 1913.03,
+            "volume": 13642.23078,
+            "quote_volume": 1780414200000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:30:00+00:00",
+            "open": 1913.03,
+            "high": 1913.03,
+            "low": 1892.0,
+            "close": 1909.1,
+            "volume": 8189.92121,
+            "quote_volume": 1780415100000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:45:00+00:00",
+            "open": 1909.1,
+            "high": 1918.7,
+            "low": 1906.47,
+            "close": 1915.0,
+            "volume": 3853.81708,
+            "quote_volume": 1780416000000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:00:00+00:00",
+            "open": 1915.0,
+            "high": 1934.32,
+            "low": 1909.66,
+            "close": 1933.36,
+            "volume": 5953.64201,
+            "quote_volume": 1780416900000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:15:00+00:00",
+            "open": 1933.36,
+            "high": 1943.86,
+            "low": 1928.31,
+            "close": 1931.41,
+            "volume": 5306.97714,
+            "quote_volume": 1780417800000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:30:00+00:00",
+            "open": 1931.41,
+            "high": 1931.84,
+            "low": 1923.24,
+            "close": 1925.08,
+            "volume": 3159.07187,
+            "quote_volume": 1780418700000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:45:00+00:00",
+            "open": 1925.08,
+            "high": 1929.79,
+            "low": 1919.98,
+            "close": 1920.55,
+            "volume": 2328.87514,
+            "quote_volume": 1780419600000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:00:00+00:00",
+            "open": 1920.55,
+            "high": 1927.55,
+            "low": 1919.74,
+            "close": 1925.4,
+            "volume": 2036.36753,
+            "quote_volume": 1780420500000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:15:00+00:00",
+            "open": 1925.4,
+            "high": 1931.59,
+            "low": 1923.22,
+            "close": 1928.15,
+            "volume": 1386.74084,
+            "quote_volume": 1780421400000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:30:00+00:00",
+            "open": 1928.15,
+            "high": 1931.36,
+            "low": 1923.06,
+            "close": 1923.94,
+            "volume": 1242.77369,
+            "quote_volume": 1780422300000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:45:00+00:00",
+            "open": 1923.94,
+            "high": 1924.73,
+            "low": 1921.14,
+            "close": 1924.44,
+            "volume": 1573.42638,
+            "quote_volume": 1780423200000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:00:00+00:00",
+            "open": 1924.44,
+            "high": 1928.14,
+            "low": 1923.09,
+            "close": 1923.09,
+            "volume": 1147.08611,
+            "quote_volume": 1780424100000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:15:00+00:00",
+            "open": 1923.09,
+            "high": 1924.05,
+            "low": 1912.81,
+            "close": 1913.79,
+            "volume": 1601.30064,
+            "quote_volume": 1780425000000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:30:00+00:00",
+            "open": 1913.79,
+            "high": 1915.47,
+            "low": 1909.64,
+            "close": 1912.41,
+            "volume": 1988.21125,
+            "quote_volume": 1780425900000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:45:00+00:00",
+            "open": 1912.41,
+            "high": 1913.64,
+            "low": 1904.0,
+            "close": 1913.29,
+            "volume": 2414.47749,
+            "quote_volume": 1780426800000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:00:00+00:00",
+            "open": 1913.29,
+            "high": 1916.45,
+            "low": 1910.67,
+            "close": 1915.01,
+            "volume": 1472.58244,
+            "quote_volume": 1780427700000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:15:00+00:00",
+            "open": 1915.01,
+            "high": 1915.44,
+            "low": 1903.4,
+            "close": 1904.55,
+            "volume": 2448.72268,
+            "quote_volume": 1780428600000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:30:00+00:00",
+            "open": 1904.55,
+            "high": 1905.59,
+            "low": 1880.98,
+            "close": 1902.63,
+            "volume": 10097.51889,
+            "quote_volume": 1780429500000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:45:00+00:00",
+            "open": 1902.63,
+            "high": 1918.08,
+            "low": 1900.27,
+            "close": 1912.44,
+            "volume": 3467.86085,
+            "quote_volume": 1780430400000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:00:00+00:00",
+            "open": 1912.44,
+            "high": 1918.64,
+            "low": 1907.53,
+            "close": 1914.09,
+            "volume": 2719.98884,
+            "quote_volume": 1780431300000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:15:00+00:00",
+            "open": 1914.09,
+            "high": 1914.97,
+            "low": 1896.01,
+            "close": 1896.61,
+            "volume": 2353.70438,
+            "quote_volume": 1780432200000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:30:00+00:00",
+            "open": 1896.61,
+            "high": 1905.14,
+            "low": 1896.45,
+            "close": 1900.91,
+            "volume": 2021.24861,
+            "quote_volume": 1780433100000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:45:00+00:00",
+            "open": 1900.91,
+            "high": 1911.24,
+            "low": 1900.14,
+            "close": 1906.89,
+            "volume": 2350.01673,
+            "quote_volume": 1780434000000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:00:00+00:00",
+            "open": 1906.89,
+            "high": 1911.14,
+            "low": 1900.25,
+            "close": 1902.13,
+            "volume": 2038.18864,
+            "quote_volume": 1780434900000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:15:00+00:00",
+            "open": 1902.13,
+            "high": 1910.95,
+            "low": 1901.84,
+            "close": 1909.47,
+            "volume": 1535.9609,
+            "quote_volume": 1780435800000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:30:00+00:00",
+            "open": 1909.47,
+            "high": 1910.6,
+            "low": 1904.61,
+            "close": 1904.98,
+            "volume": 1402.47736,
+            "quote_volume": 1780436700000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:45:00+00:00",
+            "open": 1904.98,
+            "high": 1905.59,
+            "low": 1897.29,
+            "close": 1900.64,
+            "volume": 1072.8552,
+            "quote_volume": 1780437600000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:00:00+00:00",
+            "open": 1900.64,
+            "high": 1900.65,
+            "low": 1888.65,
+            "close": 1889.04,
+            "volume": 2599.73393,
+            "quote_volume": 1780438500000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:15:00+00:00",
+            "open": 1889.04,
+            "high": 1909.91,
+            "low": 1874.81,
+            "close": 1901.54,
+            "volume": 10596.32221,
+            "quote_volume": 1780439400000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:30:00+00:00",
+            "open": 1901.54,
+            "high": 1901.96,
+            "low": 1888.95,
+            "close": 1892.53,
+            "volume": 3516.66241,
+            "quote_volume": 1780440300000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:45:00+00:00",
+            "open": 1892.53,
+            "high": 1892.53,
+            "low": 1884.64,
+            "close": 1884.64,
+            "volume": 773.59807,
+            "quote_volume": 1780441200000.0
+          }
+        ],
+        "indicators": {
+          "rsi": 40.34,
+          "macd_line": -10.97,
+          "macd_signal": -10.84,
+          "macd_histogram": -0.13,
+          "ema_20": 1905.71,
+          "ema_50": 1927.9,
+          "atr": 13.9,
+          "volume_ratio": 0.27,
+          "price_vs_ema20_pct": -1.11,
+          "price_vs_ema50_pct": -2.24,
+          "trend": "bearish",
+          "current_price": 1884.64
+        },
+        "source": "mexc",
+        "timestamp": "2026-06-02T22:47:07.198175+00:00"
+      },
+      "market": {
+        "success": true,
+        "symbol": "ETH",
+        "coingecko_id": "ethereum",
+        "current_price_usd": 1888.51,
+        "market_cap_usd": 227981760539,
+        "market_cap_rank": 2,
+        "total_volume_usd": 20963473534,
+        "price_change_24h_pct": -5.5366,
+        "price_change_7d_pct": -8.99839,
+        "circulating_supply": 120685138.4286977,
+        "volume_to_market_cap_ratio": 9.195241533549723,
+        "source": "coingecko",
+        "timestamp": "2026-06-02T22:47:07.228679+00:00"
+      },
+      "whale": {
+        "success": true,
+        "large_transactions": [],
+        "large_txn_count": 0,
+        "total_volume_usd": 0,
+        "whale_activity_score": 50,
+        "threshold_usd": 100000,
+        "source": "etherscan_v2",
+        "timestamp": "2026-06-02T22:47:08.318526+00:00"
+      },
+      "news": {
+        "success": true,
+        "articles": [
+          {
+            "title": "U.S. sanctions Iranian crypto exchanges in ongoing war against the country",
+            "link": "https://www.coindesk.com/policy/2026/06/02/u-s-sanctions-iranian-crypto-exchanges-in-ongoing-war-against-country",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 21:49:30 +0000",
+            "description": "OFAC said it was blacklisting Nobitex and three other Iranian exchanges, as well as a few executives, citing links to terror and other crimes. ...",
+            "sentiment": "bullish",
+            "sentiment_score": 70
+          },
+          {
+            "title": "Crypto correction vaporized $176B in investor funds: Are bears back in control? ",
+            "link": "https://cointelegraph.com/markets/crypto-correction-vaporized-176b-in-investor-funds-are-bears-back-in-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 21:16:33 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1tYXJrZXQtY29ycmV...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Crypto PACs pour $3M into Maryland races as California voters head to polls",
+            "link": "https://cointelegraph.com/news/crypto-pacs-maryland-races-media-buys-california-primaries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 21:06:39 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1ibG9ja2NoYWluLWF...",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
+            "link": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 20:09:53 +0000",
+            "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week....",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Coinbase invests in ProShares ETF tailored for stablecoin reserve assets",
+            "link": "https://cointelegraph.com/news/coinbase-invests-proshares-etf-tailored-stablecoin-reserve-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 20:09:26 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1jaGluYS1pcy1wdW1...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Bitcoin\u2019s $224K \u2018fair value\u2019 may emerge if sovereign debt fears deepen: Bitwise",
+            "link": "https://cointelegraph.com/markets/bitcoins-224k-fair-value-could-emerge-if-sovereign-debt-fears-deepen-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 19:28:01 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1iaXRjb2luLWFkb3B...",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Galaxy enters institutional prediction markets with $10 million Arca trade",
+            "link": "https://www.coindesk.com/markets/2026/06/02/galaxy-enters-institutional-prediction-markets-with-usd10-million-arca-trade",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 19:17:12 +0000",
+            "description": "The digital asset firm launched OTC prediction markets trading for institutions and completed a $10 million trade tied to U.S. crypto legislation with hedge fund Arca....",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Tom Lee predicts ether will hit $250,000 as corporate validators take over network control",
+            "link": "https://www.coindesk.com/markets/2026/06/02/tom-lee-predicts-eth-will-hit-usd250-000-as-corporate-validators-take-over-network-control",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 18:42:40 +0000",
+            "description": "The Bitmine chairman said DeFi and AI could push the Ethereum network's value into the multi-trillion range, making current prices \u201cfuture optionality at a discount\u201d....",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Bitcoin set for 'choppy summer' as capital chases high-flying AI stocks, K33 says",
+            "link": "https://www.coindesk.com/markets/2026/06/02/bitcoin-set-for-choppy-summer-as-capital-chases-high-flying-ai-stocks-k33-says",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 18:42:37 +0000",
+            "description": "The firm still views bitcoin as undervalued relative to equities, but says investors are rotating into AI stocks as the opportunity cost of missing gains by holding BTC is too high....",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Bitcoin gets new $50K target after BTC price crashes 6% in a day",
+            "link": "https://cointelegraph.com/markets/bitcoin-gets-new-50k-target-after-btc-price-crashes-6-in-a-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 17:54:18 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9kb2N0b3ItbWVkaWNpbmU...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          }
+        ],
+        "article_count": 10,
+        "bullish_count": 1,
+        "bearish_count": 5,
+        "neutral_count": 4,
+        "average_sentiment_score": 42.0,
+        "news_sentiment": "bearish",
+        "sources": [
+          "CoinDesk",
+          "Cointelegraph",
+          "CryptoSlate",
+          "The Defiant"
+        ],
+        "timestamp": "2026-06-02T22:47:06.842076+00:00"
+      },
+      "whale_score": 58,
+      "alert": {
+        "alert_triggered": false,
+        "alert_reason": null,
+        "alert_count": 0
+      }
+    },
+    {
+      "symbol": "SOL",
+      "timestamp": "2026-06-02T22:47:06.509893+00:00",
+      "ohlcv": {
+        "success": true,
+        "symbol": "SOLUSDT",
+        "timeframe": "15m",
+        "candles": [
+          {
+            "timestamp": "2026-06-01 22:00:00+00:00",
+            "open": 80.68,
+            "high": 80.68,
+            "low": 80.32,
+            "close": 80.51,
+            "volume": 9721.928,
+            "quote_volume": 1780352100000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:15:00+00:00",
+            "open": 80.51,
+            "high": 80.97,
+            "low": 80.44,
+            "close": 80.95,
+            "volume": 5808.505,
+            "quote_volume": 1780353000000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:30:00+00:00",
+            "open": 80.95,
+            "high": 81.02,
+            "low": 80.56,
+            "close": 80.76,
+            "volume": 6041.778,
+            "quote_volume": 1780353900000.0
+          },
+          {
+            "timestamp": "2026-06-01 22:45:00+00:00",
+            "open": 80.76,
+            "high": 81.48,
+            "low": 80.76,
+            "close": 81.41,
+            "volume": 18315.242,
+            "quote_volume": 1780354800000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:00:00+00:00",
+            "open": 81.41,
+            "high": 81.47,
+            "low": 81.24,
+            "close": 81.34,
+            "volume": 10745.171,
+            "quote_volume": 1780355700000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:15:00+00:00",
+            "open": 81.34,
+            "high": 81.61,
+            "low": 81.15,
+            "close": 81.15,
+            "volume": 17063.085,
+            "quote_volume": 1780356600000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:30:00+00:00",
+            "open": 81.15,
+            "high": 81.54,
+            "low": 81.08,
+            "close": 81.36,
+            "volume": 12089.553,
+            "quote_volume": 1780357500000.0
+          },
+          {
+            "timestamp": "2026-06-01 23:45:00+00:00",
+            "open": 81.36,
+            "high": 81.44,
+            "low": 81.12,
+            "close": 81.26,
+            "volume": 10950.984,
+            "quote_volume": 1780358400000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:00:00+00:00",
+            "open": 81.26,
+            "high": 81.29,
+            "low": 81.07,
+            "close": 81.12,
+            "volume": 6299.99,
+            "quote_volume": 1780359300000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:15:00+00:00",
+            "open": 81.12,
+            "high": 81.19,
+            "low": 80.92,
+            "close": 80.96,
+            "volume": 5508.896,
+            "quote_volume": 1780360200000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:30:00+00:00",
+            "open": 80.96,
+            "high": 81.18,
+            "low": 80.89,
+            "close": 80.97,
+            "volume": 3633.503,
+            "quote_volume": 1780361100000.0
+          },
+          {
+            "timestamp": "2026-06-02 00:45:00+00:00",
+            "open": 80.97,
+            "high": 81.06,
+            "low": 80.88,
+            "close": 80.89,
+            "volume": 3142.966,
+            "quote_volume": 1780362000000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:00:00+00:00",
+            "open": 80.89,
+            "high": 81.0,
+            "low": 80.72,
+            "close": 80.9,
+            "volume": 5019.497,
+            "quote_volume": 1780362900000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:15:00+00:00",
+            "open": 80.9,
+            "high": 80.95,
+            "low": 80.62,
+            "close": 80.63,
+            "volume": 5590.761,
+            "quote_volume": 1780363800000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:30:00+00:00",
+            "open": 80.63,
+            "high": 80.68,
+            "low": 80.16,
+            "close": 80.43,
+            "volume": 15106.759,
+            "quote_volume": 1780364700000.0
+          },
+          {
+            "timestamp": "2026-06-02 01:45:00+00:00",
+            "open": 80.43,
+            "high": 80.43,
+            "low": 80.09,
+            "close": 80.12,
+            "volume": 6162.303,
+            "quote_volume": 1780365600000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:00:00+00:00",
+            "open": 80.12,
+            "high": 80.15,
+            "low": 79.46,
+            "close": 79.83,
+            "volume": 24335.023,
+            "quote_volume": 1780366500000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:15:00+00:00",
+            "open": 79.83,
+            "high": 80.53,
+            "low": 79.7,
+            "close": 80.53,
+            "volume": 12902.054,
+            "quote_volume": 1780367400000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:30:00+00:00",
+            "open": 80.53,
+            "high": 80.57,
+            "low": 80.16,
+            "close": 80.19,
+            "volume": 5937.161,
+            "quote_volume": 1780368300000.0
+          },
+          {
+            "timestamp": "2026-06-02 02:45:00+00:00",
+            "open": 80.19,
+            "high": 80.79,
+            "low": 80.15,
+            "close": 80.78,
+            "volume": 7821.826,
+            "quote_volume": 1780369200000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:00:00+00:00",
+            "open": 80.78,
+            "high": 81.0,
+            "low": 80.65,
+            "close": 80.82,
+            "volume": 7510.244,
+            "quote_volume": 1780370100000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:15:00+00:00",
+            "open": 80.82,
+            "high": 80.96,
+            "low": 80.68,
+            "close": 80.91,
+            "volume": 8988.849,
+            "quote_volume": 1780371000000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:30:00+00:00",
+            "open": 80.91,
+            "high": 80.99,
+            "low": 80.77,
+            "close": 80.99,
+            "volume": 5728.542,
+            "quote_volume": 1780371900000.0
+          },
+          {
+            "timestamp": "2026-06-02 03:45:00+00:00",
+            "open": 80.99,
+            "high": 81.04,
+            "low": 80.85,
+            "close": 80.91,
+            "volume": 6184.514,
+            "quote_volume": 1780372800000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:00:00+00:00",
+            "open": 80.91,
+            "high": 81.01,
+            "low": 80.46,
+            "close": 80.57,
+            "volume": 6402.853,
+            "quote_volume": 1780373700000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:15:00+00:00",
+            "open": 80.57,
+            "high": 80.94,
+            "low": 80.56,
+            "close": 80.88,
+            "volume": 4930.557,
+            "quote_volume": 1780374600000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:30:00+00:00",
+            "open": 80.88,
+            "high": 80.92,
+            "low": 80.72,
+            "close": 80.77,
+            "volume": 6789.031,
+            "quote_volume": 1780375500000.0
+          },
+          {
+            "timestamp": "2026-06-02 04:45:00+00:00",
+            "open": 80.77,
+            "high": 80.77,
+            "low": 80.37,
+            "close": 80.43,
+            "volume": 7775.043,
+            "quote_volume": 1780376400000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:00:00+00:00",
+            "open": 80.43,
+            "high": 80.58,
+            "low": 80.09,
+            "close": 80.53,
+            "volume": 7200.809,
+            "quote_volume": 1780377300000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:15:00+00:00",
+            "open": 80.53,
+            "high": 80.54,
+            "low": 80.07,
+            "close": 80.07,
+            "volume": 3932.134,
+            "quote_volume": 1780378200000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:30:00+00:00",
+            "open": 80.07,
+            "high": 80.24,
+            "low": 79.87,
+            "close": 80.07,
+            "volume": 11193.202,
+            "quote_volume": 1780379100000.0
+          },
+          {
+            "timestamp": "2026-06-02 05:45:00+00:00",
+            "open": 80.07,
+            "high": 80.1,
+            "low": 79.57,
+            "close": 79.62,
+            "volume": 13465.495,
+            "quote_volume": 1780380000000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:00:00+00:00",
+            "open": 79.62,
+            "high": 79.81,
+            "low": 79.41,
+            "close": 79.52,
+            "volume": 16452.04,
+            "quote_volume": 1780380900000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:15:00+00:00",
+            "open": 79.52,
+            "high": 79.69,
+            "low": 79.42,
+            "close": 79.66,
+            "volume": 10388.921,
+            "quote_volume": 1780381800000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:30:00+00:00",
+            "open": 79.66,
+            "high": 79.74,
+            "low": 79.53,
+            "close": 79.54,
+            "volume": 8522.175,
+            "quote_volume": 1780382700000.0
+          },
+          {
+            "timestamp": "2026-06-02 06:45:00+00:00",
+            "open": 79.54,
+            "high": 79.76,
+            "low": 79.36,
+            "close": 79.59,
+            "volume": 13264.046,
+            "quote_volume": 1780383600000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:00:00+00:00",
+            "open": 79.59,
+            "high": 79.67,
+            "low": 79.19,
+            "close": 79.63,
+            "volume": 11282.059,
+            "quote_volume": 1780384500000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:15:00+00:00",
+            "open": 79.63,
+            "high": 79.94,
+            "low": 79.43,
+            "close": 79.5,
+            "volume": 6935.693,
+            "quote_volume": 1780385400000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:30:00+00:00",
+            "open": 79.5,
+            "high": 79.92,
+            "low": 79.49,
+            "close": 79.81,
+            "volume": 5188.511,
+            "quote_volume": 1780386300000.0
+          },
+          {
+            "timestamp": "2026-06-02 07:45:00+00:00",
+            "open": 79.81,
+            "high": 79.82,
+            "low": 79.62,
+            "close": 79.67,
+            "volume": 8707.794,
+            "quote_volume": 1780387200000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:00:00+00:00",
+            "open": 79.67,
+            "high": 79.78,
+            "low": 79.55,
+            "close": 79.69,
+            "volume": 8741.2,
+            "quote_volume": 1780388100000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:15:00+00:00",
+            "open": 79.69,
+            "high": 79.78,
+            "low": 79.52,
+            "close": 79.69,
+            "volume": 7817.298,
+            "quote_volume": 1780389000000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:30:00+00:00",
+            "open": 79.69,
+            "high": 79.81,
+            "low": 79.56,
+            "close": 79.57,
+            "volume": 2369.41,
+            "quote_volume": 1780389900000.0
+          },
+          {
+            "timestamp": "2026-06-02 08:45:00+00:00",
+            "open": 79.57,
+            "high": 79.65,
+            "low": 79.48,
+            "close": 79.62,
+            "volume": 5395.77,
+            "quote_volume": 1780390800000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:00:00+00:00",
+            "open": 79.62,
+            "high": 79.65,
+            "low": 79.22,
+            "close": 79.3,
+            "volume": 10254.587,
+            "quote_volume": 1780391700000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:15:00+00:00",
+            "open": 79.3,
+            "high": 79.41,
+            "low": 78.79,
+            "close": 78.92,
+            "volume": 25818.954,
+            "quote_volume": 1780392600000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:30:00+00:00",
+            "open": 78.92,
+            "high": 79.23,
+            "low": 78.82,
+            "close": 79.13,
+            "volume": 11718.917,
+            "quote_volume": 1780393500000.0
+          },
+          {
+            "timestamp": "2026-06-02 09:45:00+00:00",
+            "open": 79.13,
+            "high": 79.24,
+            "low": 79.05,
+            "close": 79.1,
+            "volume": 7407.384,
+            "quote_volume": 1780394400000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:00:00+00:00",
+            "open": 79.1,
+            "high": 79.41,
+            "low": 78.97,
+            "close": 79.34,
+            "volume": 7644.915,
+            "quote_volume": 1780395300000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:15:00+00:00",
+            "open": 79.34,
+            "high": 79.45,
+            "low": 79.27,
+            "close": 79.39,
+            "volume": 5813.432,
+            "quote_volume": 1780396200000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:30:00+00:00",
+            "open": 79.39,
+            "high": 79.44,
+            "low": 79.2,
+            "close": 79.2,
+            "volume": 4859.488,
+            "quote_volume": 1780397100000.0
+          },
+          {
+            "timestamp": "2026-06-02 10:45:00+00:00",
+            "open": 79.2,
+            "high": 79.47,
+            "low": 79.19,
+            "close": 79.42,
+            "volume": 7186.886,
+            "quote_volume": 1780398000000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:00:00+00:00",
+            "open": 79.42,
+            "high": 79.43,
+            "low": 79.12,
+            "close": 79.16,
+            "volume": 8430.291,
+            "quote_volume": 1780398900000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:15:00+00:00",
+            "open": 79.16,
+            "high": 79.16,
+            "low": 78.89,
+            "close": 78.99,
+            "volume": 9688.852,
+            "quote_volume": 1780399800000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:30:00+00:00",
+            "open": 78.99,
+            "high": 79.1,
+            "low": 78.84,
+            "close": 78.99,
+            "volume": 7194.96,
+            "quote_volume": 1780400700000.0
+          },
+          {
+            "timestamp": "2026-06-02 11:45:00+00:00",
+            "open": 78.99,
+            "high": 79.17,
+            "low": 78.92,
+            "close": 78.93,
+            "volume": 4657.558,
+            "quote_volume": 1780401600000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:00:00+00:00",
+            "open": 78.93,
+            "high": 79.03,
+            "low": 78.75,
+            "close": 78.77,
+            "volume": 9778.798,
+            "quote_volume": 1780402500000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:15:00+00:00",
+            "open": 78.77,
+            "high": 78.97,
+            "low": 78.66,
+            "close": 78.91,
+            "volume": 5885.885,
+            "quote_volume": 1780403400000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:30:00+00:00",
+            "open": 78.91,
+            "high": 79.11,
+            "low": 78.76,
+            "close": 79.1,
+            "volume": 9228.432,
+            "quote_volume": 1780404300000.0
+          },
+          {
+            "timestamp": "2026-06-02 12:45:00+00:00",
+            "open": 79.1,
+            "high": 79.15,
+            "low": 78.89,
+            "close": 78.96,
+            "volume": 7076.864,
+            "quote_volume": 1780405200000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:00:00+00:00",
+            "open": 78.96,
+            "high": 79.08,
+            "low": 78.8,
+            "close": 78.81,
+            "volume": 10374.691,
+            "quote_volume": 1780406100000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:15:00+00:00",
+            "open": 78.81,
+            "high": 79.21,
+            "low": 78.81,
+            "close": 79.13,
+            "volume": 6715.16,
+            "quote_volume": 1780407000000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:30:00+00:00",
+            "open": 79.13,
+            "high": 79.21,
+            "low": 78.92,
+            "close": 79.07,
+            "volume": 8068.975,
+            "quote_volume": 1780407900000.0
+          },
+          {
+            "timestamp": "2026-06-02 13:45:00+00:00",
+            "open": 79.07,
+            "high": 79.18,
+            "low": 78.83,
+            "close": 78.94,
+            "volume": 9211.747,
+            "quote_volume": 1780408800000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:00:00+00:00",
+            "open": 78.94,
+            "high": 78.97,
+            "low": 78.26,
+            "close": 78.69,
+            "volume": 29918.33,
+            "quote_volume": 1780409700000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:15:00+00:00",
+            "open": 78.69,
+            "high": 78.71,
+            "low": 76.77,
+            "close": 77.27,
+            "volume": 60524.488,
+            "quote_volume": 1780410600000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:30:00+00:00",
+            "open": 77.27,
+            "high": 77.92,
+            "low": 77.04,
+            "close": 77.2,
+            "volume": 41538.463,
+            "quote_volume": 1780411500000.0
+          },
+          {
+            "timestamp": "2026-06-02 14:45:00+00:00",
+            "open": 77.2,
+            "high": 77.73,
+            "low": 77.2,
+            "close": 77.45,
+            "volume": 12887.367,
+            "quote_volume": 1780412400000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:00:00+00:00",
+            "open": 77.45,
+            "high": 77.5,
+            "low": 77.0,
+            "close": 77.07,
+            "volume": 50420.442,
+            "quote_volume": 1780413300000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:15:00+00:00",
+            "open": 77.07,
+            "high": 77.1,
+            "low": 76.3,
+            "close": 76.37,
+            "volume": 41395.188,
+            "quote_volume": 1780414200000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:30:00+00:00",
+            "open": 76.37,
+            "high": 76.41,
+            "low": 75.72,
+            "close": 76.23,
+            "volume": 43824.204,
+            "quote_volume": 1780415100000.0
+          },
+          {
+            "timestamp": "2026-06-02 15:45:00+00:00",
+            "open": 76.23,
+            "high": 76.51,
+            "low": 76.05,
+            "close": 76.39,
+            "volume": 19765.063,
+            "quote_volume": 1780416000000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:00:00+00:00",
+            "open": 76.39,
+            "high": 77.28,
+            "low": 76.17,
+            "close": 77.28,
+            "volume": 41137.487,
+            "quote_volume": 1780416900000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:15:00+00:00",
+            "open": 77.28,
+            "high": 77.66,
+            "low": 77.15,
+            "close": 77.25,
+            "volume": 19528.027,
+            "quote_volume": 1780417800000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:30:00+00:00",
+            "open": 77.25,
+            "high": 77.26,
+            "low": 76.98,
+            "close": 77.03,
+            "volume": 15737.921,
+            "quote_volume": 1780418700000.0
+          },
+          {
+            "timestamp": "2026-06-02 16:45:00+00:00",
+            "open": 77.03,
+            "high": 77.29,
+            "low": 76.71,
+            "close": 76.72,
+            "volume": 17066.287,
+            "quote_volume": 1780419600000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:00:00+00:00",
+            "open": 76.72,
+            "high": 76.97,
+            "low": 76.51,
+            "close": 76.78,
+            "volume": 18473.555,
+            "quote_volume": 1780420500000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:15:00+00:00",
+            "open": 76.78,
+            "high": 77.15,
+            "low": 76.71,
+            "close": 77.06,
+            "volume": 32108.276,
+            "quote_volume": 1780421400000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:30:00+00:00",
+            "open": 77.06,
+            "high": 77.2,
+            "low": 76.86,
+            "close": 76.87,
+            "volume": 12079.898,
+            "quote_volume": 1780422300000.0
+          },
+          {
+            "timestamp": "2026-06-02 17:45:00+00:00",
+            "open": 76.87,
+            "high": 76.94,
+            "low": 76.76,
+            "close": 76.85,
+            "volume": 7693.482,
+            "quote_volume": 1780423200000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:00:00+00:00",
+            "open": 76.85,
+            "high": 77.08,
+            "low": 76.71,
+            "close": 76.71,
+            "volume": 8972.888,
+            "quote_volume": 1780424100000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:15:00+00:00",
+            "open": 76.71,
+            "high": 76.74,
+            "low": 76.32,
+            "close": 76.35,
+            "volume": 6416.936,
+            "quote_volume": 1780425000000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:30:00+00:00",
+            "open": 76.35,
+            "high": 76.43,
+            "low": 76.15,
+            "close": 76.26,
+            "volume": 7629.724,
+            "quote_volume": 1780425900000.0
+          },
+          {
+            "timestamp": "2026-06-02 18:45:00+00:00",
+            "open": 76.26,
+            "high": 76.28,
+            "low": 75.84,
+            "close": 76.17,
+            "volume": 16323.193,
+            "quote_volume": 1780426800000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:00:00+00:00",
+            "open": 76.17,
+            "high": 76.27,
+            "low": 75.96,
+            "close": 76.14,
+            "volume": 7142.815,
+            "quote_volume": 1780427700000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:15:00+00:00",
+            "open": 76.14,
+            "high": 76.17,
+            "low": 75.55,
+            "close": 75.58,
+            "volume": 28588.713,
+            "quote_volume": 1780428600000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:30:00+00:00",
+            "open": 75.58,
+            "high": 75.65,
+            "low": 74.5,
+            "close": 75.25,
+            "volume": 65730.467,
+            "quote_volume": 1780429500000.0
+          },
+          {
+            "timestamp": "2026-06-02 19:45:00+00:00",
+            "open": 75.25,
+            "high": 75.99,
+            "low": 75.23,
+            "close": 75.54,
+            "volume": 16069.167,
+            "quote_volume": 1780430400000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:00:00+00:00",
+            "open": 75.54,
+            "high": 75.94,
+            "low": 75.42,
+            "close": 75.68,
+            "volume": 7177.033,
+            "quote_volume": 1780431300000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:15:00+00:00",
+            "open": 75.68,
+            "high": 75.72,
+            "low": 74.79,
+            "close": 74.9,
+            "volume": 18024.663,
+            "quote_volume": 1780432200000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:30:00+00:00",
+            "open": 74.9,
+            "high": 75.32,
+            "low": 74.89,
+            "close": 75.19,
+            "volume": 10584.275,
+            "quote_volume": 1780433100000.0
+          },
+          {
+            "timestamp": "2026-06-02 20:45:00+00:00",
+            "open": 75.19,
+            "high": 75.56,
+            "low": 75.16,
+            "close": 75.44,
+            "volume": 13233.248,
+            "quote_volume": 1780434000000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:00:00+00:00",
+            "open": 75.44,
+            "high": 75.83,
+            "low": 75.36,
+            "close": 75.44,
+            "volume": 12117.052,
+            "quote_volume": 1780434900000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:15:00+00:00",
+            "open": 75.44,
+            "high": 75.95,
+            "low": 75.43,
+            "close": 75.93,
+            "volume": 10876.175,
+            "quote_volume": 1780435800000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:30:00+00:00",
+            "open": 75.93,
+            "high": 76.09,
+            "low": 75.82,
+            "close": 75.93,
+            "volume": 9166.838,
+            "quote_volume": 1780436700000.0
+          },
+          {
+            "timestamp": "2026-06-02 21:45:00+00:00",
+            "open": 75.93,
+            "high": 75.95,
+            "low": 75.61,
+            "close": 75.68,
+            "volume": 7499.556,
+            "quote_volume": 1780437600000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:00:00+00:00",
+            "open": 75.68,
+            "high": 75.68,
+            "low": 75.13,
+            "close": 75.15,
+            "volume": 10121.541,
+            "quote_volume": 1780438500000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:15:00+00:00",
+            "open": 75.15,
+            "high": 75.56,
+            "low": 74.65,
+            "close": 75.37,
+            "volume": 21501.07,
+            "quote_volume": 1780439400000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:30:00+00:00",
+            "open": 75.37,
+            "high": 75.39,
+            "low": 74.78,
+            "close": 74.87,
+            "volume": 20143.322,
+            "quote_volume": 1780440300000.0
+          },
+          {
+            "timestamp": "2026-06-02 22:45:00+00:00",
+            "open": 74.87,
+            "high": 74.87,
+            "low": 74.51,
+            "close": 74.52,
+            "volume": 3686.72,
+            "quote_volume": 1780441200000.0
+          }
+        ],
+        "indicators": {
+          "rsi": 38.01,
+          "macd_line": -0.56,
+          "macd_signal": -0.56,
+          "macd_histogram": -0.0,
+          "ema_20": 75.67,
+          "ema_50": 76.83,
+          "atr": 0.59,
+          "volume_ratio": 0.24,
+          "price_vs_ema20_pct": -1.52,
+          "price_vs_ema50_pct": -3.01,
+          "trend": "bearish",
+          "current_price": 74.52
+        },
+        "source": "mexc",
+        "timestamp": "2026-06-02T22:47:08.455437+00:00"
+      },
+      "market": {
+        "success": true,
+        "symbol": "SOL",
+        "coingecko_id": "solana",
+        "current_price_usd": 74.74,
+        "market_cap_usd": 43234776184,
+        "market_cap_rank": 7,
+        "total_volume_usd": 3554030894,
+        "price_change_24h_pct": -7.27611,
+        "price_change_7d_pct": -10.83248,
+        "circulating_supply": 578442940.6017809,
+        "volume_to_market_cap_ratio": 8.220305984410874,
+        "source": "coingecko",
+        "timestamp": "2026-06-02T22:47:08.551801+00:00"
+      },
+      "whale": {
+        "success": true,
+        "whale_activity_score": 50,
+        "note": "Using volume proxy for SOL"
+      },
+      "news": {
+        "success": true,
+        "articles": [
+          {
+            "title": "U.S. sanctions Iranian crypto exchanges in ongoing war against the country",
+            "link": "https://www.coindesk.com/policy/2026/06/02/u-s-sanctions-iranian-crypto-exchanges-in-ongoing-war-against-country",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 21:49:30 +0000",
+            "description": "OFAC said it was blacklisting Nobitex and three other Iranian exchanges, as well as a few executives, citing links to terror and other crimes. ...",
+            "sentiment": "bullish",
+            "sentiment_score": 70
+          },
+          {
+            "title": "Crypto correction vaporized $176B in investor funds: Are bears back in control? ",
+            "link": "https://cointelegraph.com/markets/crypto-correction-vaporized-176b-in-investor-funds-are-bears-back-in-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 21:16:33 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1tYXJrZXQtY29ycmV...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Crypto PACs pour $3M into Maryland races as California voters head to polls",
+            "link": "https://cointelegraph.com/news/crypto-pacs-maryland-races-media-buys-california-primaries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 21:06:39 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1ibG9ja2NoYWluLWF...",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
+            "link": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 20:09:53 +0000",
+            "description": "Coinbase Ventures, the exchange's venture arm, bought Ethena tokens on the open market as the protocol is set to roll out a Coinbase integration next week....",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Coinbase invests in ProShares ETF tailored for stablecoin reserve assets",
+            "link": "https://cointelegraph.com/news/coinbase-invests-proshares-etf-tailored-stablecoin-reserve-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 20:09:26 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1jaGluYS1pcy1wdW1...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Bitcoin\u2019s $224K \u2018fair value\u2019 may emerge if sovereign debt fears deepen: Bitwise",
+            "link": "https://cointelegraph.com/markets/bitcoins-224k-fair-value-could-emerge-if-sovereign-debt-fears-deepen-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 19:28:01 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9oaS1iaXRjb2luLWFkb3B...",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Galaxy enters institutional prediction markets with $10 million Arca trade",
+            "link": "https://www.coindesk.com/markets/2026/06/02/galaxy-enters-institutional-prediction-markets-with-usd10-million-arca-trade",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 19:17:12 +0000",
+            "description": "The digital asset firm launched OTC prediction markets trading for institutions and completed a $10 million trade tied to U.S. crypto legislation with hedge fund Arca....",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Tom Lee predicts ether will hit $250,000 as corporate validators take over network control",
+            "link": "https://www.coindesk.com/markets/2026/06/02/tom-lee-predicts-eth-will-hit-usd250-000-as-corporate-validators-take-over-network-control",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 18:42:40 +0000",
+            "description": "The Bitmine chairman said DeFi and AI could push the Ethereum network's value into the multi-trillion range, making current prices \u201cfuture optionality at a discount\u201d....",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          },
+          {
+            "title": "Bitcoin set for 'choppy summer' as capital chases high-flying AI stocks, K33 says",
+            "link": "https://www.coindesk.com/markets/2026/06/02/bitcoin-set-for-choppy-summer-as-capital-chases-high-flying-ai-stocks-k33-says",
+            "source": "CoinDesk",
+            "published": "Tue, 02 Jun 2026 18:42:37 +0000",
+            "description": "The firm still views bitcoin as undervalued relative to equities, but says investors are rotating into AI stocks as the opportunity cost of missing gains by holding BTC is too high....",
+            "sentiment": "neutral",
+            "sentiment_score": 50
+          },
+          {
+            "title": "Bitcoin gets new $50K target after BTC price crashes 6% in a day",
+            "link": "https://cointelegraph.com/markets/bitcoin-gets-new-50k-target-after-btc-price-crashes-6-in-a-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "source": "Cointelegraph",
+            "published": "Tue, 02 Jun 2026 17:54:18 +0000",
+            "description": "<p style=\"float:right; margin:0 0 10px 15px; width:240px;\"><img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy1pbWFnZXMuY3RtZWRpYS5pby9tZWRpYS9hcnRpY2xlLWNvdmVycy9kb2N0b3ItbWVkaWNpbmU...",
+            "sentiment": "bearish",
+            "sentiment_score": 30
+          }
+        ],
+        "article_count": 10,
+        "bullish_count": 1,
+        "bearish_count": 5,
+        "neutral_count": 4,
+        "average_sentiment_score": 42.0,
+        "news_sentiment": "bearish",
+        "sources": [
+          "CoinDesk",
+          "Cointelegraph",
+          "CryptoSlate",
+          "The Defiant"
+        ],
+        "timestamp": "2026-06-02T22:47:06.842076+00:00"
+      },
+      "whale_score": 58,
+      "alert": {
+        "alert_triggered": false,
+        "alert_reason": null,
+        "alert_count": 0
+      }
+    }
+  ],
+  "alerts": []
+}

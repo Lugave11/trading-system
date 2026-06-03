@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-02T22:16:26.436665",
+  "coins_evaluated": 3,
+  "signals_generated": 0,
+  "decisions": [
+    {
+      "symbol": "BTC",
+      "price": 67207.02,
+      "rsi": 47.84,
+      "mean_reversion_score": 40,
+      "momentum_score": 0,
+      "breakout_score": 40,
+      "best_method": [
+        "mean_reversion",
+        40
+      ],
+      "signal": null
+    },
+    {
+      "symbol": "ETH",
+      "price": 1890.19,
+      "rsi": 35.78,
+      "mean_reversion_score": 40,
+      "momentum_score": 0,
+      "breakout_score": 40,
+      "best_method": [
+        "mean_reversion",
+        40
+      ],
+      "signal": null
+    },
+    {
+      "symbol": "SOL",
+      "price": 75.13,
+      "rsi": 39.64,
+      "mean_reversion_score": 40,
+      "momentum_score": 0,
+      "breakout_score": 40,
+      "best_method": [
+        "mean_reversion",
+        40
+      ],
+      "signal": null
+    }
+  ],
+  "signals": []
+}

@@ -1,0 +1,27 @@
+{
+  "symbol": "SOL",
+  "timestamp": "2026-06-02T17:48:05.718916+00:00",
+  "trade_type": "mean_reversion",
+  "action": "BUY",
+  "entry_price": 76.84,
+  "position_size_usd": 5.0,
+  "position_size_crypto": 0.06507028,
+  "stop_loss": 74.53,
+  "take_profit": 81.45,
+  "rsi": 42.18,
+  "orchestrator_score": 65,
+  "whale_score": 50,
+  "status": "OPEN",
+  "strategy_params": {
+    "rsi_period": 14,
+    "oversold_threshold": 30,
+    "overbought_threshold": 70,
+    "exit_signal": "RSI crosses 50",
+    "risk_reward_ratio": "1:2"
+  },
+  "signals": [
+    "RSI 42.18 (ranging)",
+    "Price near mean (-0.7%)",
+    "ATR 0.66% (low)"
+  ]
+}

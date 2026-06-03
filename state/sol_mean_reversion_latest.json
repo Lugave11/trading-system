@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "SOL",
+  "direction": "LONG",
+  "entry_price": 76.83,
+  "position_size_usd": 5.0,
+  "position_size_crypto": 0.06507875,
+  "stop_loss": 74.53,
+  "take_profit": 81.44,
+  "rsi": 40.74,
+  "reason": "Orchestrator assignment - mean_reversion score 65",
+  "method": "mean_reversion",
+  "timestamp": "2026-06-02T18:20:08.092022+00:00",
+  "status": "OPEN",
+  "orchestrator_score": 65,
+  "strategy_params": {
+    "rsi_period": 14,
+    "oversold_threshold": 30,
+    "overbought_threshold": 70,
+    "exit_signal": "RSI crosses 50",
+    "risk_reward_ratio": "1:2"
+  },
+  "signals": [
+    "RSI 40.7 (ranging)",
+    "Price near mean (-0.6%)",
+    "ATR 0.42% (low)"
+  ]
+}

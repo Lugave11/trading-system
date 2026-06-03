@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-06-03T04:22:41.097454+00:00",
+  "coins_analyzed": 0,
+  "signals_found": 0,
+  "tasks_created": 0,
+  "sentiment_breakdown": {
+    "bullish": 0,
+    "bearish": 0,
+    "neutral": 0
+  },
+  "coin_analysis": {},
+  "signals": [],
+  "tasks": []
+}

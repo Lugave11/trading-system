@@ -1,0 +1,16 @@
+{
+  "spot_positions": [],
+  "derivatives_positions": [
+    {
+      "coin": "BCH",
+      "direction": "LONG",
+      "leverage": 2,
+      "entry_price": 250.9,
+      "size_usd": 5.0,
+      "opened_at": "2026-06-03T10:05:46.723286+00:00",
+      "task_id": "t_52280512"
+    }
+  ],
+  "total_deployed": 5.0,
+  "last_updated": "2026-06-03T10:05:46.723334+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "symbol": "ETH",
+  "entry_price": 1971.75,
+  "position_size_usd": 5.0,
+  "position_size_tokens": 0.0025358184354000255,
+  "stop_loss": 1912.5974999999999,
+  "take_profit": 2090.0550000000003,
+  "rsi": 36.38,
+  "orchestrator_score": 65,
+  "status": "OPEN",
+  "timestamp": "2026-06-02T09:15:50.933878+00:00"
+}

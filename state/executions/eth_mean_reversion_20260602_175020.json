@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "action": "OPEN_POSITION",
+  "symbol": "ETH",
+  "direction": "LONG",
+  "entry_price": 1923.11,
+  "position_size_usd": 5.0,
+  "position_amount": 0.002599955280769171,
+  "stop_loss": 1865.4166999999998,
+  "take_profit": 2038.4966,
+  "rsi": 41.84692179700499,
+  "reason": "Orchestrator assignment (score 65) - Mean reversion setup",
+  "method": "mean_reversion",
+  "timestamp": "2026-06-02T17:50:20.227061+00:00",
+  "note": "Strategy returned FLAT, but executing based on Orchestrator BUY signal"
+}
