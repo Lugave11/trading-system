@@ -49,7 +49,7 @@ POSITIONS_FILE = STATE_DIR / 'positions.json'
 
 # Capital limits (user's rules)
 MAX_CAPITAL = 25.00  # $25 total
-MAX_PER_POSITION = 5.00  # $5 per trade
+MAX_PER_POSITION = 2.00  # $2 per trade (reduced from $5.00)
 
 
 # ============================================================================
@@ -467,11 +467,24 @@ class Orchestrator:
             
             # Create via subprocess (Kanban CLI)
             try:
+                # Build task body with metadata as JSON block
+                body = f"""EXECUTE: {task_def.get('command', 'cd /mnt/data/hermes/workspace/trading_system && python3 derivatives_bot.py')}
+
+Signal Details:
+- Coin: {coin}
+- Action: {action}
+- Reason: {reason}
+
+Metadata:
+```json
+{json.dumps(metadata, indent=2)}
+```
+"""
                 cmd = [
                     'hermes', 'kanban', 'create',
                     title,
                     '--assignee', assignee,
-                    '--metadata', json.dumps(metadata)
+                    '--body', body
                 ]
                 
                 result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)

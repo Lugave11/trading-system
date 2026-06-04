@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reports (auto-generated, too frequent)
+reports/
+
+# State files (live data, changes every cycle)
+state/*.json
+!state/.gitkeep
+
+# Logs
+*.log
+
+# Demo/config files
+.env.demo
+.env.example
+
+# Cron helpers (generated)
+cron_job.py
+cron_trigger.py
+
+# Old/unused bots
+mean_reversion_bot.py
+momentum_bot.py
+orchestrator_bot_kanban.py
+data_worker_kanban.py
+data_worker_dynamic.py
+data_worker_unified.py
+data_worker.py
+glassnode_*.py
+etherscan_*.py
+multi_token_whale_tracker.py
+top10_whale_tracker.py
+whale_data.py
+kanban_whale_tracker.py
+
+# Test files
+test_*.py
+
+# Backtest files (old runs)
+backtest_*.py
+backtest_*.json
+backtest_*.log
+
+# Documentation (keep only essential)
+# ARCHITECTURE.md
+# README.md

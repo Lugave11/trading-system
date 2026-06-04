@@ -144,14 +144,19 @@ class DerivativesBot:
         if leverage > MAX_LEVERAGE:
             return {'status': 'error', 'reason': f'Leverage {leverage}x exceeds max {MAX_LEVERAGE}x'}
         
-        # Get price
-        entry_price = self._get_price(coin)
+        # Get price - use metadata price if provided (from Kanban task), otherwise fetch
+        entry_price = metadata.get('entry_price') or self._get_price(coin)
         if entry_price <= 0:
             return {'status': 'error', 'reason': f'Invalid price for {coin}'}
         
-        # Calculate position
+        # Calculate position - use metadata values if provided
         position_size_coins = allocation / entry_price
-        if direction == 'LONG':
+        
+        # Use stop_loss/take_profit from metadata if provided, otherwise calculate
+        if 'stop_loss' in metadata and 'take_profit' in metadata:
+            stop_loss = metadata['stop_loss']
+            take_profit = metadata['take_profit']
+        elif direction == 'LONG':
             stop_loss = entry_price * (1 - STOP_LOSS_PCT)
             take_profit = entry_price * (1 + TAKE_PROFIT_PCT)
         else:  # SHORT

@@ -5,10 +5,11 @@ Derivatives Strategy - RSI Extremes + On-Chain Confirmation
 Simple, tactical derivatives strategy for hedging and transitions.
 
 Capital Allocation:
-- Total capital: $25
-- Derivatives allocation: $7.50 (30%)
+- Derivatives allocation: $7.50 (managed by derivatives_strategy)
 - Max per trade: $5
 - Max concurrent positions: 1-2 (capital limited)
+
+Note: Total capital ($25) is managed by orchestrator, not this module.
 
 Strategy Logic:
 - LONG: RSI < 35 + Etherscan BUY/STRONG_BUY/HOLD (neutral allowed)
@@ -34,10 +35,9 @@ from datetime import datetime, timezone
 # ============================================================================
 
 # Capital allocation (user's rules)
-TOTAL_CAPITAL = 25.00
 DERIVATIVES_ALLOCATION = 7.50  # 30% of total
-MAX_PER_TRADE = 5.00
-MAX_CONCURRENT_POSITIONS = 2  # Limited by capital
+MAX_PER_TRADE = 2.00  # Reduced from $5.00
+MAX_CONCURRENT_POSITIONS = 3  # Increased (can now fit 3 positions with $2 each)
 
 # Leverage limits
 MAX_LEVERAGE = 3
